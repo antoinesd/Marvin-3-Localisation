@@ -1,0 +1,2774 @@
+// !!!
+// !!! Please use smart quotes where applicable.
+// !!!
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// START FRAMEWORK
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+// ********************************************************************************
+// TIME STUFF (e.g. 3 hours, 20 minutes and 16 seconds.
+// ********************************************************************************
+
+"KG_MINI_HOUR"                                          = "h";
+"KG_MINI_MINUTE"                                        = "m";
+"KG_MINI_SECOND"                                        = "s";
+"KG_HOUR"                                               = "hour";
+"KG_HOURS"                                              = "hours";
+"KG_MINUTE"                                             = "minute";
+"KG_MINUTES"                                            = "minutes";
+"KG_SECOND"                                             = "second";
+"KG_SECONDS"                                            = "seconds";
+"KG_TIME_AND_CONCATENATOR"                              = "and"; // e.g. 2 minutes >>>AND<<< 16 seconds.
+
+// ********************************************************************************
+// DATA SIZE FORMATS
+// ********************************************************************************
+
+"KG_KILO_BYTE_FORMAT"                                   = "%.1f KB"; // %.1f = number to one decimal place.
+"KG_MEGA_BYTE_FORMAT"                                   = "%.1f MB"; // %.1f = number to one decimal place.
+"KG_GIGA_BYTE_FORMAT"                                   = "%.1f GB"; // %.1f = number to one decimal place.
+
+// ********************************************************************************
+// GENERAL
+// ********************************************************************************
+
+"KG_OK"                                                 = "OK";
+"KG_OK_CAREFUL"                                         = "OK (careful)";
+"KG_HELP"                                               = "Help";
+"KG_ALERT"                                              = "Alert";
+"KG_TRUE"                                               = "True";
+"KG_FALSE"                                              = "False";
+"KG_CANCEL"                                             = "Cancel";
+"KG_UPDATE"                                             = "Update";
+"KG_SEARCH"                                             = "Search";
+"KG_REFRESH"                                            = "Refresh";
+"KG_YES"                                                = "Yes";
+"KG_YES_SURE"                                           = "Yes, I’m sure";
+"KG_NO"                                                 = "No";
+"KG_NONE"                                               = "None";
+"KG_CONTINUE"                                           = "Continue";
+"KG_CONFIRM"                                            = "Confirm";
+"KG_CREATE"                                             = "Create";
+"KG_IGNORE"                                             = "Ignore";
+"KG_DELETE"                                             = "Delete";
+"KG_REMOVE"                                             = "Remove";
+"KG_CLEAR"                                              = "Clear";
+"KG_LINK"                                               = "Link";
+"KG_UNLINK"                                             = "Unlink";
+"KG_OVERWRITE"                                          = "Overwrite";
+"KG_OVERWRITE_CAREFUL"                                  = "Overwrite (careful)";
+"KG_REPLACE_CAREFUL"                                    = "Replace (careful)";
+"KG_MERGE"                                              = "Merge";
+"KG_SKIP"                                               = "Skip";
+"KG_RESUME"                                             = "Resume";
+"KG_DOWNLOAD"                                           = "Download";
+"KG_DOWNLOADED"                                         = "Downloaded";
+"KG_ENABLE"                                             = "Enable";
+"KG_DISABLE"                                            = "Disable";
+"KG_FINISH"                                             = "Finish";
+"KG_SHARE"                                              = "Share";
+"KG_SAVE_TO_CAMERA_ROLL"                                = "Save to camera roll";
+"KG_OPTIONS"                                            = "Options";
+"KG_MORE_OPTIONS"                                       = "More options";
+"KG_NOT_NOW"                                            = "Not now";
+"KG_EVERYWHERE"                                         = "Everywhere";
+"KG_SAVED"                                              = "Saved";
+"KG_ADDED"                                              = "Added";
+"KG_BOTTOM"                                             = "Bottom";
+"KG_DEFAULT"                                            = "Default";
+"KG_DONE"                                               = "Done";
+"KG_READY"                                              = "Ready";
+"KG_TRY_AGAIN"                                          = "Try again";
+"KG_CANCELLED"                                          = "Cancelled";
+"KG_SAVING"                                             = "Saving…";
+"KG_SEARCHING"                                          = "Searching…";
+"KG_UPDATING"                                           = "Updating…";
+"KG_WORKING"                                            = "Working…";
+"KG_SYNCING"                                            = "Syncing…";
+"KG_LOADING"                                            = "Loading…";
+"KG_IMPORT"                                             = "Import";
+"KG_IMPORTING"                                          = "Importing…";
+"KG_THANKS"                                             = "Thanks";
+"KG_WARNING"                                            = "Warning";
+"KG_EXPORTING"                                          = "Exporting…";
+"KG_PREPARING"                                          = "Preparing…";
+"KG_TAP_TO_CANCEL"                                      = "(tap to cancel)";
+"KG_TAP_WHEN_READY"                                     = "(tap when ready)";
+"KG_COVER"                                              = "Cover…";
+"KG_ACCESSING_STORE"                                    = "Accessing store…";
+"KG_DOWNLOADING"                                        = "Downloading…";
+"KG_AGAIN_WHEN_DONE"                                    = "Tap again when done";
+"KG_OPEN_IN"                                            = "Open in…";
+"KG_X_OF_Y"                                             = "%lu of %lu"; // Careful, parameters here.
+"KG_ON"                                                 = "On";
+"KG_OFF"                                                = "Off";
+"KG_ENABLED"                                            = "Enabled";
+"KG_DISABLED"                                           = "Disabled";
+"KG_OPEN_QUOTE"                                         = "“";
+"KG_CLOSE_QUOTE"                                        = "”";
+"KG_ADD"                                                = "Add";
+"KG_RENAME"                                             = "Rename";
+"KG_EDIT"                                               = "Edit";
+"KG_GOT_IT"                                             = "Got it";
+"KG_OOPS"                                               = "Oops";
+"KG_COPY"                                               = "Copy";
+"KG_COPIED"                                             = "Copied";
+"KG_INFO"                                               = "Info";
+"KG_TIP"                                                = "Tip";
+"KG_DO_NOT_QUIT"                                        = "Do not quit Marvin";
+"KG_APP_STORE"                                          = "App Store";
+
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// END FRAMEWORK
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+// ********************************************************************************
+// GENERAL
+// ********************************************************************************
+
+"DISCARD_CHANGES"                                       = "Discard changes";
+"SAVE_CHANGES"                                          = "Save changes";
+
+"ICLOUD_NOT_AVAILABLE"                                  = "You are not logged into iCloud on this device. You may log in to your account from the settings app on your device.";
+
+"DATE_TODAY"                                            = "Today";
+"DATE_YESTERDAY"                                        = "Yesterday";
+"DATE_THIS_WEEK"                                        = "This week";
+"DATE_LAST_WEEK"                                        = "Last week";
+"DATE_THIS_MONTH"                                       = "This month";
+"DATE_LAST_MONTH_OR_OLDER"                              = "%lu days ago";
+
+// Lower case version of above - use lowercase as appropriate for the language in question.
+"DATE_TODAY_LOCASE"                                     = "today";
+"DATE_YESTERDAY_LOCASE"                                 = "yesterday";
+"DATE_THIS_WEEK_LOCASE"                                 = "this week";
+"DATE_LAST_WEEK_LOCASE"                                 = "last week";
+"DATE_THIS_MONTH_LOCASE"                                = "this month";
+
+"MSGBOX_IMPORT_CONFIRM_BY_FILENAME"                     = "Import %@?"; // %@ = filename.
+
+"MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 file couldn’t be imported because it is damaged or encrypted.";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu files couldn’t be imported because they are damaged or encrypted.";
+
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu file(s) couldn’t be imported because they are damaged or encrypted. Consider removing them from this device not to see this error again.";
+
+"MSGBOX_NO_APP_FOR_URL"                                 = "You don’t have any app installed that can execute this command.";
+"MSGBOX_NO_APP_FOR_DOCUMENT"                            = "You don’t have any app installed that can open a document of this type.";
+"MSGBOX_NO_APP_FOR_DICTIONARY"                          = "The dictionary app you specified in general settings isn’t installed on this device.";
+
+"MSGBOX_BOOK_EXISTS"                                    = "This book is already in your library.";
+"MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "A book with the specified filename already exists in your library.";
+"MSGBOX_BOOK_IMPORTED"                                  = "A book was added to your library.";
+"MSGBOX_BOOK_IMPORT_FAILED"                             = "Your book couldn’t be imported because it is damaged or encrypted.";
+"MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Your book couldn’t be imported because the file is too large and you have ‘large file skipping’ enabled in settings.";
+"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "The document you selected isn’t supported.";
+
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "Untitled section %lu"; // %lu = section number.
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "Untitled section";
+
+"COLOUR_RED"                                            = "Red";
+"COLOUR_YELLOW"                                         = "Yellow";
+"COLOUR_PINK"                                           = "Pink";
+"COLOUR_BLUE"                                           = "Blue";
+"COLOUR_GREEN"                                          = "Green";
+"COLOUR_PURPLE"                                         = "Purple";
+"COLOUR_ORANGE"                                         = "Orange";
+
+"UNKNOWN_AUTHOR"                                        = "Unknown author";
+
+// The tip to show when speed scrubbing.
+"SCRUBBING_SPEED_TIP"                                   = "Scrubbing at %.0f%% speed."; // %.1f = speed.
+
+// This is a COMMA SEPARATED list of title sort prefixes…
+// The End of the Affair --> End of the Affair, The
+// Note the the language suffix. Add more lines with the correct suffix if needed.
+"TITLE_SORT_PREFIXES_EN"                                = "A,The"; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_DE"                                = ""; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_IT"                                = ""; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_FR"                                = ""; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_ES"                                = ""; // Comma separated - NO SPACES!
+// and so on...
+
+// Suffix contractions for dictionary normalisation…
+// Would've --> Would
+"SUFFIX_CONTRACTIONS_EN"                                = "'m,'ve,'d,'ll,'s,'re,'ve,'em"; // Comma separated - NO SPACES! - Do not include 't because it is too complex for a simple rule can't/weren't case.
+"SUFFIX_CONTRACTIONS_DE"                                = ""; // Comma separated - NO SPACES!
+"SUFFIX_CONTRACTIONS_IT"                                = ""; // Comma separated - NO SPACES!
+"SUFFIX_CONTRACTIONS_FR"                                = ""; // Comma separated - NO SPACES!
+"SUFFIX_CONTRACTIONS_ES"                                = ""; // Comma separated - NO SPACES!
+
+// ********************************************************************************
+// EMAIL
+// ********************************************************************************
+
+"EMAIL_SUBJECT"                                         = "Marvin for iOS";
+
+// Careful: the following are HTML fragments.
+"EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Sent via <a href='http://www.marvinapp.com?src=appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author.
+"EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Sent via <a href='http://www.marvinapp.com?src=appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
+
+// ********************************************************************************
+// MESSAGE BOXES
+// ********************************************************************************
+
+"MSGBOX_NO_EMAIL_ACCOUNTS"                              = "You don’t have any email accounts set up.";
+"MSGBOX_RATE_TITLE"                                     = "Recommend and rate Marvin";
+"MSGBOX_RATE_MESSAGE"                                   = "When the App Store opens, please tap ‘Reviews’ then ‘Write A Review’. Thank you for your kindness!";
+
+// ********************************************************************************
+// KEYBOARD SHORTCUTS
+// ********************************************************************************
+
+"KEYBOARD_SHORTCUT_MAIN_MENU"                           = "Main menu";
+"KEYBOARD_SHORTCUT_MY_LIBRARY_MENU"                     = "My library menu";
+"KEYBOARD_SHORTCUT_FIND"                                = "Find";
+"KEYBOARD_SHORTCUT_NEW"                                 = "New";
+"KEYBOARD_SHORTCUT_CANCEL"                              = "Cancel";
+"KEYBOARD_SHORTCUT_CLOSE"                               = "Close";
+"KEYBOARD_SHORTCUT_SAVE"                                = "Save";
+"KEYBOARD_SHORTCUT_FAVOURITES"                          = "Favorites";
+"KEYBOARD_SHORTCUT_ENTER_ADDRESS"                       = "Enter address";
+"KEYBOARD_SHORTCUT_NAVIGATE_BACK"                       = "Navigate back";
+"KEYBOARD_SHORTCUT_NAVIGATE_FORWARD"                    = "Navigate forward";
+"KEYBOARD_SHORTCUT_BACK"                                = "Back";
+"KEYBOARD_SHORTCUT_SCROLL_DOWN"                         = "Scroll down";
+"KEYBOARD_SHORTCUT_SCROLL_UP"                           = "Scroll up";
+"KEYBOARD_SHORTCUT_SCROLL_BOTTOM"                       = "Scroll bottom";
+"KEYBOARD_SHORTCUT_SCROLL_TOP"                          = "Scroll top";
+"KEYBOARD_SHORTCUT_ALL_YOUR_BOOKS"                      = "All your books";
+"KEYBOARD_SHORTCUT_YOUR_READING_LIST"                   = "Your reading list";
+"KEYBOARD_SHORTCUT_BROWSE_COLLECTIONS"                  = "Browse collections";
+"KEYBOARD_SHORTCUT_AUTHORS"                             = "Authors";
+"KEYBOARD_SHORTCUT_SERIES"                              = "Series";
+"KEYBOARD_SHORTCUT_SUBJECTS"                            = "Subjects";
+"KEYBOARD_SHORTCUT_PUBLISHERS"                          = "Publishers";
+"KEYBOARD_SHORTCUT_ALL_ENTRIES"                         = "All entries";
+"KEYBOARD_SHORTCUT_STARRED_ENTRIES"                     = "Starred entries";
+"KEYBOARD_SHORTCUT_ENTRIES_WITH_PHOTOS"                 = "Entries with photos";
+"KEYBOARD_SHORTCUT_VOCABULARY_ENTRIES"                  = "Vocabulary entries";
+"KEYBOARD_SHORTCUT_PHOTO_PICKER"                        = "Photo picker";
+"KEYBOARD_SHORTCUT_TAKE_A_PHOTO"                        = "Take a photo";
+"KEYBOARD_SHORTCUT_LAST_PHOTO_TAKEN"                    = "Last photo taken";
+"KEYBOARD_SHORTCUT_TAG_PICKER"                          = "Tag picker";
+"KEYBOARD_SHORTCUT_DATE_AND_LOCATION"                   = "Date and location";
+"KEYBOARD_SHORTCUT_GO_TO_CURRENT_LOCATION"              = "Go to current location";
+"KEYBOARD_SHORTCUT_FIT_VISIBLE_ENTRIES"                 = "Fit visible entries";
+"KEYBOARD_SHORTCUT_JOURNAL_AND_ANNOTATIONS"             = "Journal and annotations";
+"KEYBOARD_SHORTCUT_SWITCH_TO_LAYOUT"                    = "Layout";
+"KEYBOARD_SHORTCUT_SWITCH_TO_PAGINATION"                = "Pagination";
+"KEYBOARD_SHORTCUT_SWITCH_TO_FONTS"                     = "Fonts";
+"KEYBOARD_SHORTCUT_SWITCH_TO_COLOURS"                   = "Colors and textures";
+"KEYBOARD_SHORTCUT_SWITCH_TO_AUTO_SCROLL"               = "Auto scroll";
+"KEYBOARD_SHORTCUT_SWITCH_TO_BRIGHTNESS"                = "Brightness and warmth";
+"KEYBOARD_SHORTCUT_FORMATTING_MENU"                     = "Formatting menu";
+"KEYBOARD_SHORTCUT_SEARCH"                              = "Search";
+"KEYBOARD_SHORTCUT_DEEP_VIEW"                           = "Deep View";
+"KEYBOARD_SHORTCUT_KARAOKE"                             = "Karaoke";
+"KEYBOARD_SHORTCUT_ADD_AN_ENTRY"                        = "New journal entry";
+"KEYBOARD_SHORTCUT_RED_BOOKMARK"                        = "Red bookmark";
+"KEYBOARD_SHORTCUT_BLUE_BOOKMARK"                       = "Blue bookmark";
+"KEYBOARD_SHORTCUT_GREEN_BOOKMARK"                      = "Green bookmark";
+"KEYBOARD_SHORTCUT_BOOK_CONTENTS"                       = "Book contents";
+"KEYBOARD_SHORTCUT_SWITCH_TO_TOC"                       = "Table of contents";
+"KEYBOARD_SHORTCUT_SWITCH_TO_BOOKMARKS"                 = "Bookmarks";
+"KEYBOARD_SHORTCUT_SWITCH_TO_ANNOTATIONS"               = "Annotations";
+
+// ********************************************************************************
+// EPUB TEMPLATE (Journal to EPUB exporter)
+// ********************************************************************************
+
+"EPUB_TEMPLATE_ENTRY_BOOK_AUTHOR"                       = "%@ by %@"; // 1st %@ = book title, 2nd %@ = author.
+"EPUB_TEMPLATE_CREATOR"                                 = "Marvin for iOS";
+"EPUB_TEMPLATE_PUBLISHER"                               = "Marvin for iOS v%@ (www.appstafarian.com)"; // %@ = app version.
+"EPUB_TEMPLATE_BOOK_TITLE"                              = "Journal from %@ to %@"; // 1st %@ = earliest date, 2nd %@ = latest date.
+"EPUB_TEMPLATE_BOOK_DESCRIPTION"                        = "Reading journal from %@ to %@. Created by Marvin for iOS v%@ (www.appstafarian.com)."; // 1st %@ = earliest date, 2nd %@ = latest date. 3rd %@ = app version.
+"EPUB_TEMPLATE_TOC_ABOUT"                               = "About this journal";
+"EPUB_TEMPLATE_TOC_COVER"                               = "Cover page";
+"EPUB_TEMPLATE_ABOUT_TITLE"                             = "About this Journal";
+"EPUB_TEMPLATE_ABOUT_TEXT"                              = "This journal was created automatically using Marvin for iOS.";
+"EPUB_TEMPLATE_VOCABULARY_HEADER"                       = "Your vocabulary";
+
+// ********************************************************************************
+// PDF TEMPLATE
+// ********************************************************************************
+
+"PDF_TEMPLATE_ENTRY_BOOK_AUTHOR"                        = "%@ by %@"; // 1st %@ = book title, 2nd %@ = author.
+"PDF_TEMPLATE_ENTRY_NUMBERED_VOCABULARY"                = "%lu - Vocabulary"; //%lu = journal entry number
+
+// ********************************************************************************
+// TWITTER
+// ********************************************************************************
+
+"TWITTER_STORE_ERROR_OR_NO_PERMISSION"                  = "Sorry, cannot access your Twitter accounts. Please check your permissions in device settings and enable Twitter access.";
+"TWITTER_NO_ACCOUNTS"                                   = "Sorry, you don’t have any Twitter accounts set up on your device.";
+"TWITTER_CHOOSE_ACCOUNT_TITLE"                          = "Choose a Twitter account…";
+"TWITTER_FOLLOW_FROM"                                   = "Follow @appstafarian from";
+"TWITTER_FOLLOW_ERROR"                                  = "Sorry, something when wrong. Please check that your internet connection is OK and that Twitter access is allowed from your device settings.";
+"TWITTER_FOLLOW_SUCCESS"                                = "Thank you for following Marvin!";
+"TWITTER_APPEND_VIA"                                    = "via @marvinreader"; 
+"TWITTER_CANNOT_SEND_TWEET"                             = "Cannot send tweet. Make sure your Twitter account is set in your device’s settings."; 
+
+// ********************************************************************************
+// FACEBOOK
+// ********************************************************************************
+
+"FACEBOOK_CANNOT_SEND_POST"                             = "Cannot send post. Make sure your Facebook account is set in your device’s settings."; 
+
+// ********************************************************************************
+// SOCIAL SHARING DEFAULT TEMPLATES
+// ********************************************************************************
+
+// NOTE: {xxx} placeholders must remain in English.
+"TWITTER_READING_DEFAULT_TEMPLATE"                      = "I am reading ‘{title}’ by {author}";
+"TWITTER_PROGRESS_DEFAULT_TEMPLATE"                     = "{progress} through ‘{title}’ by {author}";
+"TWITTER_STARTED_BOOK_DEFAULT_TEMPLATE"                 = "Started reading ‘{title}’ by {author}";
+"TWITTER_FINISHED_BOOK_DEFAULT_TEMPLATE"                = "Just finished reading ‘{title}’ by {author}";
+
+"SEND_TO_READING_DEFAULT_TEMPLATE"                      = "I am reading ‘{title}’ by {author}";
+"SEND_TO_PROGRESS_DEFAULT_TEMPLATE"                     = "{progress} through ‘{title}’ by {author}";
+"SEND_TO_STARTED_BOOK_DEFAULT_TEMPLATE"                 = "Started reading ‘{title}’ by {author}";
+"SEND_TO_FINISHED_BOOK_DEFAULT_TEMPLATE"                = "Just finished reading ‘{title}’ by {author}";
+
+// ********************************************************************************
+// OPDS GENERAL
+// ********************************************************************************
+
+"OPDS_1_SERVICE_FOUND"                                  = "1 found…";
+"OPDS_X_SERVICES_FOUND"                                 = "%lu found…"; // Placeholder.
+"OPDS_TAP_TO_STOP_SCANNING"                             = "(tap to stop scanning)";
+
+// ********************************************************************************
+// PRESET COLLECTION NAMES
+// ********************************************************************************
+
+"COLLECTION_NAME_ALL_YOUR_BOOKS"                        = "All your books";
+"COLLECTION_NAME_READING_LIST"                          = "Your reading list";
+"COLLECTION_NAME_UNCOLLECTED"                           = "Not in a collection";
+"COLLECTION_NAME_NEW_FLAG"                              = "With new flag";
+"COLLECTION_NAME_NOT_NEW_FLAG"                          = "Without new flag";
+"COLLECTION_NAME_READ"                                  = "Marked as read";
+"COLLECTION_NAME_UNREAD"                                = "Unread books";
+"COLLECTION_NAME_OPENED"                                = "Opened books";
+"COLLECTION_NAME_UNOPENED"                              = "Unopened books";
+"COLLECTION_NAME_HAVING_NOTE"                           = "Having note";
+"COLLECTION_NAME_LESS_THAN_50K"                         = "Less than 50k words";
+"COLLECTION_NAME_BETWEEN_50K_120K"                      = "Between 50k and 120k words";
+"COLLECTION_NAME_BETWEEN_120K_200K"                     = "Between 120k and 200k words";
+"COLLECTION_NAME_MORE_THAN_200K"                        = "More than 200k words";
+"COLLECTION_NAME_UNRATED"                               = "Unrated";
+"COLLECTION_NAME_ONE_STAR"                              = "One star";
+"COLLECTION_NAME_TWO_STAR"                              = "Two star";
+"COLLECTION_NAME_THREE_STAR"                            = "Three star";
+"COLLECTION_NAME_FOUR_STAR"                             = "Four star";
+"COLLECTION_NAME_FIVE_STAR"                             = "Five star";
+"COLLECTION_NAME_BETTER_THAN_THREE_STAR"                = "Three stars or better";
+"COLLECTION_NAME_WORSE_THAN_THREE_STAR"                 = "Fewer than three stars";
+
+// ********************************************************************************
+// DOWNLOAD HELPERS
+// ********************************************************************************
+
+"DOWNLOAD_HELPER_PERCENT_PROGRESS"                      = "%.0f%% of %@"; // First %.0f = percentage zero decimal places, note the double %% escape after it, second %@ = total size of download.
+"DOWNLOAD_HELPER_DOWNLOADING"                           = "Downloading…";
+"DOWNLOAD_HELPER_STARTING"                              = "Starting…";
+"DOWNLOAD_HELPER_BOOK_DOWNLOAD_MESSAGE"                 = "Download and import book from ‘%@’? The book will be added to your library."; // %@ will contain the URL host showing the book's origin.
+"DOWNLOAD_HELPER_AUTHENTICATION_ERROR"                  = "Authentication error.";
+"DOWNLOAD_HELPER_INVALID_ADDRESS"                       = "The address of the book you selected is invalid.";
+"DOWNLOAD_HELPER_DOWNLOAD_ERROR"                        = "Cannot download your book. The address might be invalid or the server unavailable.";
+"DOWNLOAD_HELPER_BOOK_ALREADY_IN_LIBRARY"               = "The book you downloaded already exists in your library.";
+"DOWNLOAD_HELPER_BOOK_IMPORTED"                         = "Book imported";
+"DOWNLOAD_HELPER_BAD_DOWNLOAD"                          = "The book you downloaded is damaged or it is encrypted.";
+"DOWNLOAD_HELPER_DOWNLOAD_1_BOOK"                       = "Download and import 1 book?";
+"DOWNLOAD_HELPER_DOWNLOAD_X_BOOKS"                      = "Download and import %i books?"; // %i = book count.
+"DOWNLOAD_HELPER_COUNT_PROGRESS"                        = "%i of %i…"; // First %i = current book, second %i = total books.
+"DOWNLOAD_HELPER_MULTI_FAIL"                            = "%i of %i books were not imported. This can happen if they are already in your library, an error occurred when downloading them or they are not in a format that Marvin can read."; // First %i = bad book count, second %i = total books.
+
+// ********************************************************************************
+// INTERCHANGE FILES
+// ********************************************************************************
+
+"INTERCHANGE_FILE_CUSTOM_TEXT_COMMANDS_TITLE"           = "Import text menu commands";
+"INTERCHANGE_FILE_CUSTOM_TEXT_COMMANDS_IMPORT_SUCCESS"  = "Your custom text menu commands have been imported into Marvin. You can find them in Settings, EPUB, Custom commands.";
+"INTERCHANGE_FILE_CUSTOM_TEXT_COMMANDS_IMPORT_ERROR"    = "An error occured importing a custom text menu commands file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_CUSTOM_FONTS_TITLE"                   = "Import custom fonts";
+"INTERCHANGE_FILE_CUSTOM_FONTS_IMPORT_SUCCESS"          = "Your custom fonts have been imported into Marvin. You can find them in Settings, EPUB, Custom fonts.";
+"INTERCHANGE_FILE_CUSTOM_FONTS_IMPORT_ERROR"            = "An error occured importing a custom fonts file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_WEB_FAVOURITES_TITLE"                 = "Import web favorites";
+"INTERCHANGE_FILE_WEB_FAVOURITES_IMPORT_SUCCESS"        = "Your web favorites have been imported into Marvin.";
+"INTERCHANGE_FILE_WEB_FAVOURITES_IMPORT_ERROR"          = "An error occured importing a web favorites file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_OPDS_FAVOURITES_TITLE"                = "Import OPDS favorites";
+"INTERCHANGE_FILE_OPDS_FAVOURITES_IMPORT_SUCCESS"       = "Your OPDS favorites have been imported into Marvin.";
+"INTERCHANGE_FILE_OPDS_FAVOURITES_IMPORT_ERROR"         = "An error occured importing an OPDS favorites file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_BOOKMARK_TITLE"                       = "Import bookmark";
+"INTERCHANGE_FILE_BOOKMARK_IMPORT_SUCCESS"              = "Your bookmark has been imported into Marvin.";
+"INTERCHANGE_FILE_BOOKMARK_IMPORT_ERROR"                = "An error occured importing a bookmark file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_BOOKMARKS_TITLE"                      = "Import bookmarks";
+"INTERCHANGE_FILE_BOOKMARKS_IMPORT_SUCCESS"             = "Your bookmarks have been imported into Marvin.";
+"INTERCHANGE_FILE_BOOKMARKS_IMPORT_ERROR"               = "An error occured importing one or more bookmarks. Please make sure the bookmarks file isn’t corrupted.";
+
+"INTERCHANGE_FILE_ENTRY_TITLE"                          = "Import entry or annotation";
+"INTERCHANGE_FILE_ENTRY_IMPORT_SUCCESS"                 = "Your journal entry or annotation has been imported into Marvin.";
+"INTERCHANGE_FILE_ENTRY_IMPORT_ERROR"                   = "An error occured importing a journal entry or annotation file. Please make sure it isn’t corrupted.";
+
+"INTERCHANGE_FILE_ANNOTATIONS_TITLE"                    = "Import annotations";
+"INTERCHANGE_FILE_ANNOTATIONS_IMPORT_SUCCESS"           = "Your annotations have been imported into Marvin.";
+"INTERCHANGE_FILE_ANNOTATIONS_IMPORT_ERROR"             = "An error occured importing one or more annotations. Please make sure the annotations file isn’t corrupted.";
+
+"INTERCHANGE_FILE_IMPORT_MESSAGE_FOR_MERGE"             = "Merge contents with the ones your already have (recommended), or replace the ones you already have with these (CAREFUL)?";
+"INTERCHANGE_FILE_IMPORT_MESSAGE_FOR_OVERWRITE"         = "Copy new items only (recommended), or overwrite existing ones (CAREFUL)?";
+"INTERCHANGE_FILE_UNKNOWN_TYPE_ERROR"                   = "Marvin received an interchange file but could not determine its type.";
+
+
+// ********************************************************************************
+// SPLASH SCREEN (SplashViewController)
+// ********************************************************************************
+
+"SPLASH_LOADING_YOUR_LIBRARY"                           = "Loading your library…";
+
+"SPLASH_GET_STARTUP_PASSWORD_TITLE"                     = "Startup password";
+"SPLASH_GET_STARTUP_PASSWORD_MESSAGE"                   = "Enter your startup password.";
+
+"SPLASH_GET_STARTUP_USE_TOUCH_ID"                       = "Unlock Marvin using Touch ID. Tap ‘cancel’ if you want to enter your password manually.";
+
+"SPLASH_GET_STARTUP_PASSWORD_INCORRECT"                 = "Incorrect password. Try again.";
+
+// ********************************************************************************
+// HOME SCREEN (HomeViewController)
+// ********************************************************************************
+
+// The placeholder text in the search box.
+"HOME_SEARCH_BOX_PLACEHOLDER"                           = "Find books, authors, …";
+
+// The screen title of the advanced search keywords help screen.
+"HOME_SEARCH_KEYWORDS_HELP_SCREEN_TITLE"                = "Search keywords";
+
+// The current sort shown in the top toolbar.
+"HOME_SORT_BY"                                          = "by %@"; // Placeholder!
+
+// The tips shown above the the book list in list mode or cover mode.
+"HOME_LIST_VIEW_TOP_TIP"                                = "Slide left and right, or long-press for options";
+"HOME_COVER_VIEW_TOP_TIP"                               = "Long-press for options";
+
+// Placeholders in the '...' book reveal menu.
+"HOME_REVEAL_USER_COLLECTIONS"                          = "User collections: %@";
+"HOME_REVEAL_SUBJECTS"                                  = "Subjects: %@";
+"HOME_REVEAL_SERIES"                                    = "Series: %@";
+"HOME_REVEAL_FILE_SIZE"                                 = "File size: %@";
+"HOME_REVEAL_PUBLISHER"                                 = "Published by: %@";
+"HOME_REVEAL_WORD_COUNT_VALUE"                          = "Word count: about %@ words";
+"HOME_REVEAL_WORD_COUNT_STILL_WORKING"                  = "Word count: still working";
+"HOME_REVEAL_UNOPENED"                                  = "You haven’t opened this book yet";
+
+// Markers.
+"HOME_MARKER_NEW"                                       = "New";
+"HOME_MARKER_READ"                                      = "Read";
+"HOME_MARKER_READING_LIST"                              = "Reading list";
+"HOME_MARKER_NOTE"                                      = "Note";
+"HOME_MARKER_1_STAR"                                    = "1 star";
+"HOME_MARKER_X_STARS"                                   = "%lu stars"; // Placeholder.
+
+// Recent books menu.
+"HOME_RECENT_BOOK_PROGRESS"                             = "You are %lu%% in, last read %@";
+"HOME_OPENED_PROGRESS_AND_DATE"                         = "%.0f%% last read %@"; // %.0f = percentage progress, %@ = date description e.g. 'yesterday'
+"HOME_ADDED_ON_DATE"                                    = "Added on %@"; // Placeholder. E.g. "Added on 26/Nov/2015"
+"HOME_ADDED_DESCRIPTION"                                = "Added %@"; // Placeholder. E.g. "Added today"
+
+// The history menu that shows when you tap the clock icon in the top header.
+"HOME_HISTORY_MENU_TITLE"                               = "Continue reading";
+"HOME_HISTORY_MENU_TIP"                                 = "You can change the number of books shown here from general settings.";
+
+// The menu shown when you long press a book.
+"HOME_BOOK_MENU_COLLECTIONS"                            = "Organize in collections";
+"HOME_BOOK_MENU_ACTIONS"                                = "Actions";
+"HOME_BOOK_MENU_METADATA"                               = "Metadata and cover";
+"HOME_BOOK_MENU_NOTE"                                   = "Add or edit a note";
+"HOME_BOOK_MENU_SHARE"                                  = "Share book or annotations";
+"HOME_BOOK_MENU_TWEET_POST_AND_MORE"                    = "Tweet, post, and more";
+"HOME_BOOK_PUBLISHERS_SUMMARY"                          = "Publisher’s summary";
+"HOME_BOOK_WEB_SEARCH"                                  = "Web search ‘%@’"; // Placeholder.
+
+// The menu shown (settings and support section) when you tap the settings button.
+"HOME_SETTINGS_MENU_TITLE"                              = "Settings and support";
+"HOME_SETTINGS_MENU_GENERAL"                            = "General settings";
+"HOME_SETTINGS_MENU_EPUB"                               = "EPUB book settings";
+"HOME_SETTINGS_MENU_CBX"                                = "CBx comic settings";
+"HOME_SETTINGS_MENU_ABOUT_MARVIN"                       = "About";
+"HOME_SETTINGS_MENU_SUPPORT_MARVIN"                     = "Support Marvin";
+
+// The menu shown (colour scheme) when you tap the settings button.
+"HOME_COLOUR_SCHEME_MENU_TITLE"                         = "Colors";
+"HOME_COLOUR_SCHEME_MENU_CHOOSE"                        = "Choose Marvin’s color scheme";
+
+// The 'search' menu shown when you tap the list button in the toolbar.
+"HOME_RECENTLY_OPENED_MENU_ITEM"                        = "Recently opened books";
+
+// The 'search' menu shown when you tap the list button in the toolbar.
+"HOME_SEARCH_MENU_ITEM"                                 = "Search";
+"HOME_SEARCH_MENU_ITEM_TIP"                             = "Tip: swipe down on the toolbar to search.";
+
+// The 'collections and lists' menu shown when you tap the list button in the toolbar.
+"HOME_BROWSE_MENU_TITLE"                                = "Collections and lists";
+"HOME_BROWSE_MENU_TIP"                                  = "To assign books to custom collections, slide or long press a book in the home screen, and choose the collections manager.";
+"HOME_BROWSE_MENU_BACK_TO_ALL_BOOKS"                    = "Back to all your books";
+"HOME_BROWSE_MENU_PREVIOUS_USER_COLLECTION"             = "%@"; // Placeholder.
+"HOME_BROWSE_MENU_COLLECTIONS"                          = "Smart and user collections";
+"HOME_BROWSE_MENU_AUTHORS"                              = "Authors";
+"HOME_BROWSE_MENU_SUBJECTS"                             = "Subjects and tags";
+"HOME_BROWSE_MENU_SERIES"                               = "Series";
+"HOME_BROWSE_MENU_PUBLISHERS"                           = "Publishers";
+
+// The 'sort by' menu shown when you tap the list button in the toolbar.
+"HOME_SORT_MENU_TITLE"                                  = "Sort by";
+"HOME_SORT_MENU_BY_TITLE"                               = "Title";
+"HOME_SORT_MENU_BY_AUTHOR"                              = "Author, title";
+"HOME_SORT_MENU_BY_AUTHOR_PUB"                          = "Author, publication date";
+"HOME_SORT_MENU_BY_AUTHOR_SERIES"                       = "Author, series, #";
+"HOME_SORT_MENU_BY_SERIES"                              = "Series, #";
+"HOME_SORT_MENU_BY_RATING"                              = "Rating";
+"HOME_SORT_MENU_BY_DATE_ADDED"                          = "Date added";
+"HOME_SORT_MENU_BY_DATE_OPENED"                         = "Date last opened";
+"HOME_SORT_MENU_BY_READING_LIST"                        = "Reading list on top";
+
+// The 'multi-select' menu shown when you tap the right main menu button in the toolbar.
+"HOME_MULTI_SELECT_MENU_HEADER"                         = "Multi-select";
+"HOME_MULTI_SELECT_MENU_TIP"                            = "After choosing all the books you want to edit in multi-select mode, tap the checkmark button in the top toolbar to start editing.";
+"HOME_MULTI_SELECT_MENU_ENTER"                          = "Select multiple books";
+"HOME_MULTI_SELECT_MENU_EXIT"                           = "Leave multi-select mode";
+"HOME_MULTI_SELECT_MENU_SELECT_ALL"                     = "Select all visible";
+"HOME_MULTI_SELECT_MENU_SELECT_NONE"                    = "Unselect all";
+
+// The 'viewing mode' menu shown when you tap the right main menu button in the toolbar.
+"HOME_VIEWING_MODE_MENU_TITLE"                          = "Viewing mode";
+"HOME_VIEWING_MODE_MENU_TIP"                            = "If you have library pinch gestures enabled in settings, you can pinch in and out to cycle through viewing modes quickly.";
+"HOME_VIEWING_MODE_MENU_COVERS"                         = "Cover view";
+"HOME_VIEWING_MODE_MENU_COVERS_AND_CAPTIONS"            = "Cover view with captions";
+"HOME_VIEWING_MODE_MENU_REGULAR_LIST"                   = "Regular list";
+"HOME_VIEWING_MODE_MENU_CONDENSED_LIST"                 = "Condensed list";
+"HOME_VIEWING_MODE_MENU_BIG_TEXT"                       = "Larger text";
+"HOME_VIEWING_MODE_MENU_WALL"                           = "Wall";
+
+// The 'browse annotations and journal' menu shown when you tap the right main menu button in the toolbar.
+"HOME_ANNOTATIONS_MENU_TITLE"                           = "Browse";
+"HOME_ANNOTATIONS_MENU_JOURNAL"                         = "Annotations and journal";
+"HOME_ANNOTATIONS_MENU_PHOTOS"                          = "Photos";
+"HOME_ANNOTATIONS_MENU_MAP"                             = "Reading map";
+"HOME_ANNOTATIONS_MENU_TAGS"                            = "Tags";
+"HOME_ANNOTATIONS_MENU_READING_STATISTICS"              = "Reading statistics";
+
+// The 'get books' menu shown when you tap the right main menu button in the toolbar.
+"HOME_CLOUD_MENU_TITLE"                                 = "Get books from";
+"HOME_CLOUD_MENU_DROPBOX"                               = "Dropbox";
+"HOME_CLOUD_MENU_CLOUD_PICKER"                          = "Cloud picker";
+"HOME_CLOUD_MENU_OPDS"                                  = "OPDS";
+"HOME_CLOUD_MENU_OPDS_AUTO"                             = "OPDS auto or calibre server";
+"HOME_CLOUD_MENU_WEB"                                   = "Web browser";
+"HOME_CLOUD_MENU_ITUNES"                                = "iTunes drag-and-drop";
+
+"HOME_CLOUD_MENU_FOOTER"                                = "Marvin opens DRM-free EPUB books, and CBZ/CBR comics.";
+
+// The panel shown if there are no books to display.
+"HOME_NO_DATA_TIP_IN_ALL_BOOKS"                         = "Get started by adding books from your Dropbox, OPDS, calibre, iTunes, iCloud, and other sources.";
+"HOME_NO_DATA_BUTTON_IN_ALL_BOOKS"                      = "Get books";
+"HOME_NO_DATA_TIP_IN_COLLECTION"                        = "This collection is empty. You can switch to the ‘All your books’ collection to see your library.";
+"HOME_NO_DATA_BUTTON_IN_COLLECTION"                     = "All your books";
+
+// The message and action shown if Marvin detects books added or removed from the /documents directory.
+"HOME_DOCUMENTS_DETECTED_TITLE"                         = "Changes detected";
+"HOME_DOCUMENTS_DETECTED_MESSAGE"                       = "Marvin detected changes in your documents directory. When your books finish copying, press ‘Import now’ to import them.";
+"HOME_DOCUMENTS_DETECTED_IMPORT_NOW"                    = "Import now";
+
+// The message shown after the auto detector imported and processed books.
+"HOME_DOCUMENTS_IMPORT_COMPLETE"                        = "%lu file(s) were imported.";
+"HOME_DOCUMENTS_IMPORT_COMPLETE_FAIL"                   = "%lu file(s) imported, %lu file(s) failed because they are invalid or encrypted. The files that couldn’t be imported were deleted from your documents directory.";
+
+// The error and actions shown of the user disabled all menu items from showing (from general settings).
+"HOME_MAIN_MENU_IS_EMPTY"                               = "You disabled all items from showing in this menu. Go the general settings to enable the home screen items you’d like to see.";
+"HOME_MAIN_MENU_IS_EMPTY_OPEN_SETTINGS"                 = "Open settings";
+
+// Shown to the user once to tell that the main menu can be customised in general settings.
+"HOME_MAIN_MENU_FIRST_TIME_TIP"                         = "You can customize which items appear in the home screen menus from general settings.";
+
+// The menu shown after the user selects mutliple books for editing (bulk edit menu).
+"HOME_MULTI_EDIT_MENU_TITLE"                            = "Edit multiple books";
+"HOME_MULTI_EDIT_MENU_TIP"                              = "Actions lets you add books to your reading list, flag them, mark them as read, rate them, or delete them.";
+
+// The messages and menus shown after the OPDS-auto detector completed a network scan.
+"HOME_OPDS_AUTO_NO_SERVICES_FOUND"                      = "Marvin couldn’t find any OPDS services running on your local network. Make sure your device is connected to the same network (probably wifi) or let the search run for a bit more.";
+"HOME_OPDS_AUTO_MENU_TITLE"                             = "Connect to";
+"HOME_OPDS_AUTO_MENU_TIP"                               = "Some feeds might require a username and password. Important: the credentials you enter are not encrypted on your device. Make sure your device is protected with Touch ID or a PIN.";
+
+// No recently opened books
+"HOME_NO_RECENT_BOOKS"                                  = "You haven’t opened any books yet.";
+
+// User collections menu.
+"HOME_NO_USER_COLLECTIONS"                              = "You haven’t created any user collections yet. To create one, long-press a book and choose ‘orgainize in collections’.";
+"HOME_USER_COLLECTIONS_TITLE"                           = "User collections";
+
+// ********************************************************************************
+// QUICK LAUNCH (QuickLaunchViewController)
+// ********************************************************************************
+// The left side bar on iPad.
+// ********************************************************************************
+
+"QUICK_LAUNCH_NO_ITEMS"                                 = "Tap the ‘customize’ button to choose which shortcuts you’d like to see here.\n\nAny items not shown in this panel are always accessible from other menus.";
+"QUICK_LAUNCH_CUSTOMISE"                                = "Customize…";
+
+// ********************************************************************************
+// QUICK LAUNCH MENU (QuickLaunchMenuViewController)
+// ********************************************************************************
+// The left side bar on iPad.
+// ********************************************************************************
+
+"QUICK_LAUNCH_MENU_SCREEN_TITLE"                        = "Quick launch menu shortcuts";
+
+"QUICK_LAUNCH_MENU_USE_RECOMMENDED"                     = "Use recommended shortcuts…";
+"QUICK_LAUNCH_MENU_CONFIRM_USE_RECOMMENDED"             = "Recommended shortcuts are useful to help you get started. Eventually, you should consider choosing your own. Your current shortcuts will be overwritten with these. Continue?";
+
+"QUICK_LAUNCH_MENU_TIP"                                 = "Choose which shortcuts appear in the home screen's quick launch panel. Any items you don’t select here are still available from other menus.";
+
+"QUICK_LAUNCH_CONTINUE_READING_SECTION"                 = "Continue reading section";
+"QUICK_LAUNCH_VIEWING_MODE_SECTION"                     = "Viewing mode section";
+"QUICK_LAUNCH_MULTI_SELECT_SECTION"                     = "Multi-select section";
+"QUICK_LAUNCH_COLOURS_SECTION"                          = "Colors section";
+"QUICK_LAUNCH_COLLECTIONS_SECTION"                      = "Collections and lists section";
+"QUICK_LAUNCH_SORT_SECTION"                             = "Sorting section";
+"QUICK_LAUNCH_JOURNAL_SECTION"                          = "Browse section";
+"QUICK_LAUNCH_CLOUD_SECTION"                            = "Get books section";
+"QUICK_LAUNCH_TOOLS_SECTION"                            = "Tools section";
+
+"QUICK_LAUNCH_CONTINUE_READING_HEADER"                  = "Continue reading";
+"QUICK_LAUNCH_VIEWING_MODE_HEADER"                      = "Viewing mode";
+"QUICK_LAUNCH_MULTI_SELECT_HEADER"                      = "Multi-select";
+"QUICK_LAUNCH_COLOURS_HEADER"                           = "Colors";
+"QUICK_LAUNCH_COLLECTIONS_HEADER"                       = "Collections and lists";
+"QUICK_LAUNCH_SORT_HEADER"                              = "Sorting";
+"QUICK_LAUNCH_JOURNAL_HEADER"                           = "Browse";
+"QUICK_LAUNCH_CLOUD_HEADER"                             = "Get books";
+"QUICK_LAUNCH_TOOLS_HEADER"                             = "Tools";
+
+"QUICK_LAUNCH_COLOUR_SCHEMES"                           = "Color schemes";
+
+"QUICK_LAUNCH_CURRENT_BOOK"                             = "Current book";
+"QUICK_LAUNCH_SHARING_AND_OPTIONS"                      = "Sharing and options";
+"QUICK_LAUNCH_RECENTLY_OPENED"                          = "Recently opened";
+
+"QUICK_LAUNCH_VIEWING_MODES"                            = "Viewing modes";
+
+"QUICK_LAUNCH_SMART_COLLECTIONS"                        = "Smart and user collections";
+"QUICK_LAUNCH_USER_COLLECTIONS"                         = "User collections";
+
+"QUICK_LAUNCH_EXTERNAL_WEB_BROWSER"                     = "External web browser";
+
+// ********************************************************************************
+// ABOUT SCREEN (AboutViewController)
+// ********************************************************************************
+// Access from: Home > Settings > About Marvin
+// ********************************************************************************
+
+"ABOUT_SCREEN_TITLE"                                    = "About Marvin";
+"ABOUT_HEART_MARVIN"                                    = "Marvin";
+"ABOUT_HEART_BOOKS"                                     = "books";
+"ABOUT_THANKS"                                          = "Special thanks to all of Marvin’s friends who helped with their brilliant ideas and suggestions.";
+"ABOUT_HAPPY_READING"                                   = "Happy reading!";
+"ABOUT_COPYRIGHT"                                       = "© Appstafarian, 2013-2016. All rights reserved.";
+"ABOUT_VERSION"                                         = "This is Marvin %@ build %@";
+"ABOUT_RECOMMEND"                                       = "Recommend and rate Marvin";
+"ABOUT_RECOMMEND_TIP"                                   = "Your ratings and reviews mean a lot. If you have a minute, it really helps. App reviews and ratings are reset with every new version.";
+"ABOUT_TWITTER"                                         = "Follow @Appstafarian";
+"ABOUT_TWITTER_TIP"                                     = "Follow Appstafarian on Twitter for news, updates, tutorials, and other goodies.";
+"ABOUT_FACEBOOK"                                        = "Check Marvin out on Facebook";
+"ABOUT_WEBSITE"                                         = "Visit appstafarian.com";
+"ABOUT_CREDITS"                                         = "Info, credits, and privacy";
+"ABOUT_MORE_APPS"                                       = "More apps you’ll love";
+"ABOUT_MARVIN"                                          = "Marvin is an eBook reader for people who are passionate about their books. Get Marvin and find out why readers are calling it “the most brilliant eReader to come out in a long time”.";
+"ABOUT_MARVIN_SXS"                                      = "Marvin SxS is a special version of Marvin that lets you keep separate libraries, and read or study two books at the same time. Works great with Slide Over and Split View devices.";
+"ABOUT_GERTY"                                           = "Gerty is a minimalist, yet powerful, eBook reader. Gerty is meticulously crafted to read your books and record great memories as you read them.";
+"ABOUT_SIFT"                                            = "Sift is the perfect companion to your favorite email app. Sort out all your mailboxes in seconds using simple gestures!";
+"ABOUT_CREDITS_SCREEN_TITLE"                            = "About Marvin";
+
+// The menu shown to get Marvin.
+"GET_MARVIN_MENU_TITLE"                                 = "App Store";
+"GET_MARVIN_MENU_GET"                                   = "Get Marvin";
+
+"GET_MARVIN_MENU_SHARE_TITLE"                           = "Spread the word";
+"GET_MARVIN_MENU_SHARE"                                 = "Tell a friend";
+"GET_MARVIN_MENU_SHARE_MESSAGE"                         = "Marvin is an eBook reader for people who are passionate about their books. Get Marvin and find out why readers are calling it “the most brilliant eReader to come out in a long time”.";
+
+// The menu shown to get Marvin SxS.
+"GET_MARVIN_SXS_MENU_TITLE"                             = "App Store";
+"GET_MARVIN_SXS_MENU_GET"                               = "Get Marvin SxS";
+
+"GET_MARVIN_SXS_MENU_SHARE_TITLE"                       = "Spread the word";
+"GET_MARVIN_SXS_MENU_SHARE"                             = "Tell a friend";
+"GET_MARVIN_SXS_MENU_SHARE_MESSAGE"                     = "Marvin Side-by-Side is a special version that lets keep separate libraries, and read or study two books at the same time. Works great with Slide Over and Split View devices.";
+
+// The menu shown to get Gerty.
+"GET_GERTY_MENU_TITLE"                                  = "App Store";
+"GET_GERTY_MENU_GET"                                    = "Get Gerty";
+
+"GET_GERTY_MENU_SHARE_TITLE"                            = "Spread the word";
+"GET_GERTY_MENU_SHARE"                                  = "Tell a friend";
+"GET_GERTY_MENU_SHARE_MESSAGE"                          = "Gerty is a meticulously crafted app to read your books and record great memories as you read them. eBook reader, journal, notes, photos, maps — you've never seen anything like this before.";
+
+// The menu shown to get Sift.
+"SIFT_MENU_TITLE"                                       = "Choose a version";
+"SIFT_MENU_TIP"                                         = "Choose Sift Lite if you only use one email account. It is free and otherwise identical to the full version.";
+"SIFT_MENU_GET_FULL"                                    = "Sift";
+"SIFT_MENU_GET_FREE"                                    = "Sift Lite (free)";
+
+"SIFT_MENU_SHARE_TITLE"                                 = "Spread the word";
+"SIFT_MENU_SHARE"                                       = "Tell a friend";
+"SIFT_MENU_SHARE_MESSAGE"                               = "Sift is the perfect companion to your favorite email app. Sort out all your mailboxes in seconds using simple gestures!";
+
+// ********************************************************************************
+// SUPPORT MARVIN SCREEN (SupportMarvinViewController)
+// ********************************************************************************
+// Access from: Home > Settings > Support Marvin
+// ********************************************************************************
+
+"SUPPORT_MARVIN_SCREEN_TITLE"                           = "Support Marvin";
+
+"SUPPORT_MARVIN_SPREAD_THE_WORD"                        = "Spread the word";
+"SUPPORT_MARVIN_TELL_A_FRIEND"                          = "Tell a friend";
+"SUPPORT_MARVIN_TELL_A_FRIEND_MESSAGE"                  = "Check out Marvin to read eBooks and comic books on your iPhone and iPad.";
+"SUPPORT_MARVIN_LOCALISE"                               = "Localize Marvin";
+"SUPPORT_MARVIN_LOCALISE_TIP"                           = "Help localize Marvin in your language.";
+"SUPPORT_MARVIN_RATE_ON_APP_STORE"                      = "Rate and review Marvin";
+"SUPPORT_MARVIN_TIP_JAR"                                = "Tip Jar + Get Gifts";
+"SUPPORT_MARVIN_TIP_TEXT"                               = "If you’re enjoying Marvin and find it useful, please consider supporting future development, and get free themes by leaving a tip. Thank you!";
+"SUPPORT_MARVIN_TIP_LOADING"                            = "Loading…";
+"SUPPORT_MARVIN_TIP_ERROR"                              = "Something went wrong (%lu)"; // %lu = error code.
+"SUPPORT_MARVIN_RESTORE_TIPS"                           = "Restore previous tips";
+
+// ********************************************************************************
+// COLLECTIONS BROWSER SCREEN (CollectionsBrowserViewController)
+// ********************************************************************************
+// Access from: Home > Tap on toolbar banner > Collections and lists
+// ********************************************************************************
+
+"COLLECTIONS_SCREEN_TITLE"                              = "Collections";
+
+"COLLECTIONS_ALL_BOOKS_CANNOT_HIDE"                     = "The ‘All your books’ collection cannot be hidden.";
+
+// The headers of the collections screen sections.
+"COLLECTIONS_SMART_COLLECTIONS_HEADER"                  = "Smart collections";
+"COLLECTIONS_USER_COLLECTIONS_HEADER"                   = "User collections";
+
+// The headers of the collections screen sections while in edit mode.
+"COLLECTIONS_SMART_COLLECTIONS_HEADER_EDIT"             = "Tap to hide or unhide:";
+"COLLECTIONS_USER_COLLECTIONS_HEADER_EDIT"              = "Tap to rename or delete:";
+
+// The menu and messages shown to the user when editing a user collection.
+"COLLECTIONS_EDIT_USER_COLLECTION_TITLE"                = "You are editing ‘%@’"; // Placeholder!
+"COLLECTIONS_EDIT_USER_COLLECTION_TIP"                  = "Deleting a collection does not delete your books.";
+"COLLECTIONS_EDIT_USER_COLLECTION_DELETE_CONFIRM"       = "Really delete ‘%@’? Your books and annotations will not be deleted."; // Placeholder!
+"COLLECTIONS_EDIT_USER_COLLECTION_RENAME_CONFIRM"       = "Rename ‘%@’ to:"; // Placeholder!
+"COLLECTIONS_EDIT_USER_COLLECTION_RENAME_EXISTS"        = "A user collection called ‘%@’ already exists in your library."; // Placeholder!
+
+// ********************************************************************************
+// LIST BROWSER SCREEN (ListBrowserViewController)
+// ********************************************************************************
+// Access from: Home > Tap on toolbar banner > Authors/Series/Subjects/Publishers
+// ********************************************************************************
+
+// This is the screen used to display author, series, subjects, and publisher lists.
+// These are the possible titles shown in the toolbar.
+"LIST_BROWSER_SCREEN_TITLE_AUTHORS"                     = "Authors";
+"LIST_BROWSER_SCREEN_TITLE_SERIES"                      = "Series";
+"LIST_BROWSER_SCREEN_TITLE_SUBJECTS"                    = "Subjects and tags";
+"LIST_BROWSER_SCREEN_TITLE_PUBLISHERS"                  = "Publishers";
+
+// Placeholder text in search box.
+"LIST_BROWSER_FILTER_PLACEHOLDER"                       = "Type here to filter…";
+
+// The list sort menu.
+"LIST_BROWSER_SORT_TITLE"                               = "Sort by";
+"LIST_BROWSER_SORT_BY_NAME"                             = "Name";
+"LIST_BROWSER_SORT_BY_COUNT"                            = "Book count";
+
+// ********************************************************************************
+// GENERIC NOTE SCREEN (GenericNoteViewController)
+// ********************************************************************************
+
+// Title of the screen used to enter a note.
+"GENERIC_NOTE_SCREEN_TITLE"                             = "Note";
+
+// ********************************************************************************
+// METADATA EDITOR SCREEN (MetadataEditorViewController)
+// ********************************************************************************
+// Access from: Home > Long press or slide book > Metadata
+// ********************************************************************************
+
+"METADATA_SCREEN_TITLE"                                 = "Metadata and cover";
+"METADATA_TITLE_LABEL"                                  = "Title:";
+"METADATA_TITLE_SORT_LABEL"                             = "Title sort:";
+"METADATA_AUTHOR_LABEL"                                 = "Author:";
+"METADATA_AUTHOR_SORT_LABEL"                            = "Author sort:";
+"METADATA_SERIES_LABEL"                                 = "Series and number:";
+"METADATA_SUBJECT_LABEL"                                = "Subjects (comma separated):";
+"METADATA_RATING_LABEL"                                 = "Rating:";
+"METADATA_SUMMARY_BUTTON"                               = "Publisher’s summary…";
+"METADATA_COVER_BUTTON"                                 = "Change cover…";
+"METADATA_TIP_LABEL"                                    = "Metadata changes are only saved in Marvin. Your book files are never changed.";
+
+// The menu shown to change the book's cover.
+"METADATA_CHANGE_COVER_TITLE"                           = "Choose a new cover";
+"METADATA_CHANGE_COVER_TIP"                             = "If you search for a cover on the web, you’ll have to save the cover image to your camera roll from the web browser, then choose ‘from photos’ to select it.";
+"METADATA_CHANGE_COVER_PHOTOS"                          = "From photos";
+"METADATA_CHANGE_COVER_RESTORE"                         = "Restore original";
+"METADATA_CHANGE_COVER_WEB"                             = "Search for a cover on the web";
+
+// The contents of the publisher's summary page.
+"METADATA_PUBLISHERS_SUMMARY_PAGE_TITLE"                = "Publisher’s summary";
+"METADATA_PUBLISHERS_SUMMARY_MISSING"                   = "This book doesn’t have a publisher’s summary or description.";
+
+// The error shown if the user didn't enter required information in the metadata editor.
+"METADATA_MISSING_VALUES"                               = "The title, title sort, author, and author sort values are required.";
+
+// ********************************************************************************
+// SHARE BOOK SCREEN (ShareBookViewController)
+// ********************************************************************************
+// Access from: Home > Long press or slide book > Share
+// ********************************************************************************
+
+"SHARE_BOOK_HEADER_CELL"                                = "Sharing options";
+
+"SHARE_BOOK_EMAIL_TITLE"                                = "Email this book";
+"SHARE_BOOK_EMAIL_TIP"                                  = "Share this book in an email, including its description if available.";
+
+"SHARE_BOOK_OPEN_IN_TITLE"                              = "Send to…";
+"SHARE_BOOK_OPEN_IN_TIP"                                = "Share this book using AirDrop, or share it to another app or service. If you want to open (send) this book to another app choose ‘Open in…’ from the popup.";
+
+"SHARE_BOOK_SEND_TO_MARVIN_SXS"                         = "Send to Marvin SxS";
+"SHARE_BOOK_SEND_TO_MARVIN_SXS_TIP"                     = "Marvin Side-by-Side is a special version of Marvin that lets you keep separate libraries, and read or study two books at the same time.";
+"SHARE_BOOK_SEND_TO_MARVIN_SXS_NOT_INSTALLED"           = "Marvin SxS is not installed on this device. Check it out on the App Store?";
+
+"SHARE_BOOK_SEND_TO_MARVIN"                             = "Send to Marvin";
+"SHARE_BOOK_SEND_TO_MARVIN_TIP"                         = "Send this book to Marvin on this device.";
+"SHARE_BOOK_SEND_TO_MARVIN_NOT_INSTALLED"               = "Marvin is not installed on this device. Get it from the App Store?";
+
+"SHARE_BOOK_ANNOTATION_EXCHANGE_TITLE"                  = "Annotations (Marvin → Marvin)";
+"SHARE_BOOK_ANNOTATION_EXCHANGE_TIP"                    = "Exchange, sync, or store annotations for this book with Marvin on another device.";
+
+"SHARE_BOOK_ANNOTATION_PDF_TITLE"                       = "Annotations (PDF)";
+"SHARE_BOOK_ANNOTATION_PDF_TIP"                         = "Save annotations to a PDF and send them to another app or device.";
+
+"SHARE_BOOK_ANNOTATION_EPUB_TITLE"                      = "Annotations (EPUB)";
+"SHARE_BOOK_ANNOTATION_EPUB_TIP"                        = "Save annotations as an EPUB book and send them to another app or device.";
+
+"SHARE_BOOK_VOCABULARY_TXT_TITLE"                       = "Vocabulary";
+"SHARE_BOOK_VOCABULARY_TXT_TIP"                         = "Share a text file containing all the vocabulary collected for this book.";
+
+"SHARE_BOOK_EPUB_EXPORT_EMPTY"                          = "You haven’t created any journal entries or annotations that can be exported to an EPUB journal.";
+"SHARE_BOOK_EPUB_EXPORT_CONFIRM"                        = "Export all your journal entries and annotations to an EPUB journal now? This may take a while if you have lots of entries to export."; // Placeholder.
+
+"SHARE_BOOK_PDF_EXPORT_EMPTY"                           = "You haven’t created any journal entries or annotations that can be exported to a PDF journal.";
+"SHARE_BOOK_PDF_EXPORT_CONFIRM"                         = "Export all your journal entries and annotations to a PDF journal now (about %@)? This may take a while if you have lots of entries to export."; // Placeholder.
+"SHARE_BOOK_PDF_NO_SPACE"                               = "You don't have enough free space to export a PDF journal. Marvin needs about %@ of free space to prepare it."; // Placeholder.
+
+"SHARE_BOOK_INTERCHANGE_EXPORT_EMPTY"                   = "You haven’t created any journal entries or annotations that can be exported to an interchange file.";
+"SHARE_BOOK_INTERCHANGE_EXPORT_CONFIRM"                 = "Export all your journal entries and annotations to an interchange file now? This may take a while if you have lots of entries and photos to export."; // Placeholder.
+"SHARE_BOOK_INTERCHANGE_EXPORT_ERROR"                   = "An error occured creating an EPUB from your journal. Make sure you have enough free space on your device.";
+
+"SHARE_BOOK_VOCAB_EXPORT_EMPTY"                         = "There aren’t any vocabulary entries recorded for this book.";
+
+// ********************************************************************************
+// EXTENDED OPTIONS SCREEN (ExtendedOptionsViewController)
+// ********************************************************************************
+// Access from: Home > Continue Reading button in toolbar > Radar button
+// ********************************************************************************
+
+"EXTENDED_OPTIONS_HEADER_CELL"                          = "Book options";
+
+"EXTENDED_OPTIONS_SHARE_SHEET"                          = "Share sheet";
+"EXTENDED_OPTIONS_SHARE_SHEET_TIP"                      = "Show the share sheet for this book.";
+
+"EXTENDED_OPTIONS_NOTE"                                 = "Note";
+"EXTENDED_OPTIONS_NOTE_TIP"                             = "Add or edit a note for this book.";
+
+"EXTENDED_OPTIONS_FINISHED_READING"                     = "Finished reading";
+"EXTENDED_OPTIONS_FINISHED_READING_TIP"                 = "Mark this book as read, and remove it from your reading list.";
+"EXTENDED_OPTIONS_FINISHED_READING_CONFIRM_MESSAGE"     = "Mark this book as read and remove it from your reading list?";
+
+"EXTENDED_OPTIONS_TWEET_READING_STATUS"                 = "Tweet your reading status";
+"EXTENDED_OPTIONS_TWEET_READING_STATUS_TIP"             = "Share your ‘I am reading…’ status. You can edit the template that Marvin uses to post messages.";
+
+"EXTENDED_OPTIONS_TWEET_PROGRESS"                       = "Tweet your reading progress";
+"EXTENDED_OPTIONS_TWEET_PROGRESS_TIP"                   = "Share your reading progress. You can edit the template that Marvin uses to post messages.";
+
+"EXTENDED_OPTIONS_POST_FACEBOOK"                        = "Post to Facebook";
+"EXTENDED_OPTIONS_POST_FACEBOOK_TIP"                    = "Post a message and book cover.";
+
+"EXTENDED_OPTIONS_SEND_READING_STATUS"                  = "Send to… reading status";
+"EXTENDED_OPTIONS_SEND_READING_STATUS_TIP"              = "Share your ‘I am reading…’ status using iOS’ share sheet. You can edit the template that Marvin uses to post messages.";
+
+"EXTENDED_OPTIONS_SEND_PROGRESS"                        = "Send to… reading progress";
+"EXTENDED_OPTIONS_SEND_PROGRESS_TIP"                    = "Share your reading progress using iOS’ share sheet. You can edit the template that Marvin uses to post messages.";
+
+// Button to edit the template Marvin uses to share reading status and progress on social networks.
+"EXTENDED_OPTIONS_TEMPLATE"                             = "Edit template…";
+
+// The titles of the screens used to input social sharing template text.
+"EXTENDED_OPTIONS_TWITTER_READING_NOTE_TITLE"           = "Twitter, reading";
+"EXTENDED_OPTIONS_TWITTER_PROGRESS_NOTE_TITLE"          = "Twitter, progress";
+"EXTENDED_OPTIONS_SEND_TO_READING_NOTE_TITLE"           = "Send to…, reading";
+"EXTENDED_OPTIONS_SEND_TO_PROGRESS_NOTE_TITLE"          = "Send to…, progress";
+
+// The title of the help screen shown when the user is editing social sharing template text.
+"EXTENDED_OPTIONS_SOCIAL_TEMPLATE_HELP_TITLE"           = "Help";
+
+// ********************************************************************************
+// STATISTICS SCREEN (StatisticsViewController)
+// ********************************************************************************
+// Access from: Home > Right main menu button > Reading statistics
+// ********************************************************************************
+
+"STATISTICS_SCREEN_TITLE"                               = "Your reading stats";
+
+"STATISTICS_BOOKS"                                      = "Books";
+"STATISTICS_ENTRIES"                                    = "Entries and annotations";
+"STATISTICS_PHOTOS"                                     = "Photos";
+"STATISTICS_TAGS"                                       = "Tags";
+"STATISTICS_LOGGED_TODAY"                               = "Logged today";
+"STATISTICS_LOGGED_PAST_5"                              = "Past five days";
+"STATISTICS_DAYS_LOGGED"                                = "Days logged";
+"STATISTICS_LAST_SESSION"                               = "Last reading session";
+"STATISTICS_READ_TODAY"                                 = "Read today";
+"STATISTICS_READ_PAST_5"                                = "Past five days";
+"STATISTICS_BOOKS_SPACE"                                = "Space (books)";
+"STATISTICS_FONTS_SPACE"                                = "Space (fonts)";
+"STATISTICS_DEEP_VIEW_SPACE"                            = "Space (Deep View)";
+"STATISTICS_FREE_SPACE"                                 = "Free space";
+
+"STATISTICS_MENU_TOOLS_TITLE"                           = "Tools";
+"STATISTICS_MENU_TOOLS_EXPORT_READING_SESSIONS"         = "Export reading sessions";
+"STATISTICS_MENU_TOOLS_TIP"                             = "Create a reading session and time report to a CSV file";
+
+"STATISTICS_EXPORT_EMPTY"                               = "There aren’t any reading sessions recorded yet.";
+
+// ********************************************************************************
+// ACTIONS SCREEN (ActionsViewController)
+// ********************************************************************************
+// Access from: Home > Long press or slide book > Actions
+// ********************************************************************************
+
+"ACTIONS_SCREEN_TITLE"                                  = "Managing %lu books"; // Placeholder!
+
+"ACTIONS_TABLE_HEADER"                                  = "Actions";
+
+"ACTIONS_DELETE_CONFIRM_1"                              = "Are you sure you want to delete ‘%@’? Your annotations will not be deleted."; // Placeholder!
+"ACTIONS_DELETE_CONFIRM_X"                              = "Are you sure you want to delete %lu books? Your annotations will not be deleted."; // Placeholder!
+
+"ACTION_CONFIRM_FOR_MULTIPLE"                           = "Apply this action to %lu books?"; // Placeholder.
+
+"ACTIONS_ADD_TO_READING_LIST"                           = "Add to reading list";
+"ACTIONS_REMOVE_FROM_READING_LIST"                      = "Remove from reading list";
+"ACTIONS_FLAG_NEW"                                      = "Flag as new";
+"ACTIONS_UNFLAG_NEW"                                    = "Remove the new flag";
+"ACTIONS_MARK_READ"                                     = "Mark as read";
+"ACTIONS_MARK_UNREAD"                                   = "Mark as unread";
+"ACTIONS_DELETE"                                        = "Delete";
+
+// ********************************************************************************
+// COLLECTIONS EDITOR SCREEN (CollectionsEditorViewController)
+// ********************************************************************************
+// Access from: Home > Long press or slide book > Collections
+// ********************************************************************************
+
+"COLLECTIONS_EDITOR_SCREEN_TITLE"                       = "Organizing %lu books"; // Placeholder!
+"COLLECTIONS_EDITOR_HEADER_CELL"                        = "Collection membership";
+
+"COLLECTIONS_EDITOR_ADD_TITLE"                          = "New collection";
+"COLLECTIONS_EDITOR_ADD_MESSAGE"                        = "Your selected books will be added to a new collection. Enter the collection name:";
+
+"COLLECTIONS_EDITOR_ADD_OR_REMOVE_MESSAGE"              = "Some books are in this collection, and some aren’t. What would you like to do?";
+"COLLECTIONS_EDITOR_ADD_ALL"                            = "Add all to collection";
+"COLLECTIONS_EDITOR_REMOVE_ALL"                         = "Remove all from collection";
+
+// ********************************************************************************
+// TIME PICKER CONTROL (TimePickerViewController)
+// ********************************************************************************
+
+// The buttons shown in the date/time picker.
+"TIME_PICKER_DISABLE_BUTTON"                            = "Disable";
+"TIME_PICKER_ENABLE_BUTTON"                             = "Set";
+
+// ********************************************************************************
+// GENERAL SETTINGS (GeneralSettingsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > General settings
+// ********************************************************************************
+
+"GENERAL_SETTINGS_SCREEN_TITLE"                         = "General settings";
+
+// The title of the general settings help screen.
+"GENERAL_SETTINGS_HELP_SCREEN_TITLE"                    = "General settings help";
+
+// Messages and values related to linking/unlinking to/from Dropbox.
+"GENERAL_SETTINGS_DROPBOX_LINK_UNLINK_TITLE"            = "Dropbox";
+"GENERAL_SETTINGS_LINK_TO_DROPBOX"                      = "Link to Dropbox now?";
+"GENERAL_SETTINGS_UNLINK_FROM_DROPBOX"                  = "Are you sure you want to unlink Marvin from Dropbox?";
+"GENERAL_SETTINGS_LINKED_DROPBOX_VALUE"                 = "Linked";
+"GENERAL_SETTINGS_UNLINKED_DROPBOX_VALUE"               = "Unlinked";
+
+// The dropbox section.
+"GENERAL_SETTINGS_CELL_DROPBOX_HEADER"                  = "Dropbox";
+"GENERAL_SETTINGS_CELL_LINK_TO_DROPBOX"                 = "Link to Dropbox";
+"GENERAL_SETTINGS_CELL_DB_SEARCH_PATH"                  = "Download search path";
+
+// The 'appearance' section.
+"GENERAL_SETTINGS_CELL_APPEARANCE_HEADER"               = "Appearance";
+"GENERAL_SETTINGS_CELL_RECENTLY_OPENED"                 = "Recently opened list";
+"GENERAL_SETTINGS_CELL_LONG_LIST_SCRUBBING"             = "Long list scrubber";
+"GENERAL_SETTINGS_CELL_SQUARE_COVERS"                   = "Square list covers";
+"GENERAL_SETTINGS_CELL_KEYBOARD"                        = "Keyboard";
+"GENERAL_SETTINGS_CELL_QUICK_LAUNCH_PANEL_SIZE"         = "Quick launch panel";
+"GENERAL_SETTINGS_CELL_MAIN_MENU_ITEMS"                 = "Home screen menus";
+
+// The 'hardware keyboard' section.
+"GENERAL_SETTINGS_CELL_HARDWARE_KEYBOARD_HEADER"        = "Hardware keyboard or remote";
+"GENERAL_SETTINGS_CELL_HARDWARE_KEYBOARD_SETUP"         = "Setup";
+
+// The 'behaviours' section.
+"GENERAL_SETTINGS_CELL_BEHAVIOURS_HEADER"               = "Behaviors";
+"GENERAL_SETTINGS_CELL_WIKIPEDIA_PREFIX"                = "Wikipedia language prefix";
+"GENERAL_SETTINGS_CELL_DEFAULT_SEARCH_PROVIDER"         = "Web search provider";
+"GENERAL_SETTINGS_CELL_TITLE_SORT"                      = "Title display and sort";
+"GENERAL_SETTINGS_CELL_AUTHOR_SORT"                     = "Author display and sort";
+"GENERAL_SETTINGS_CELL_LONG_PRESS_M_BUTTON"             = "Long press M button";
+"GENERAL_SETTINGS_CELL_APP_BADGE"                       = "App badge";
+"GENERAL_SETTINGS_CELL_EXTERNAL_BROWSER"                = "External web browser";
+"GENERAL_SETTINGS_CELL_AUTOMATIC_GEOTAGGING"            = "Automatic geotagging";
+"GENERAL_SETTINGS_CELL_LAUNCH_LAST_BOOK"                = "Launch to last book";
+"GENERAL_SETTINGS_CELL_SLEEP_WHILE_READING"             = "Can sleep while reading";
+"GENERAL_SETTINGS_CELL_AUTO_HIDE_BOOK_TOOLBARS"         = "Auto-hide book toolbars";
+"GENERAL_SETTINGS_CELL_AUTO_BOOKMARKS"                  = "Auto-bookmark on close";
+"GENERAL_SETTINGS_CELL_SESSION_TIME_ON_CLOSE"           = "Show session time on close";
+"GENERAL_SETTINGS_CELL_PINCH_IN_LIBRARY"                = "Pinch gestures in library";
+"GENERAL_SETTINGS_CELL_LIBRARY_LIST_INFO_LINE"          = "List info line";
+"GENERAL_SETTINGS_CELL_MORNING_REMINDER"                = "Morning reminder";
+"GENERAL_SETTINGS_CELL_EVENING_REMINDER"                = "Evening reminder";
+
+// The 'startup password' section.
+"GENERAL_SETTINGS_CELL_STARTUP_PASSWORD_HEADER"         = "Startup password";
+"GENERAL_SETTINGS_CELL_PASSWORD"                        = "Password";
+"GENERAL_SETTINGS_CELL_TOUCH_ID"                        = "Use Touch ID";
+
+// The 'dictionary' section.
+"GENERAL_SETTINGS_CELL_DICTIONARY_HEADER"               = "Dictionary";
+"GENERAL_SETTINGS_CELL_DICTIONARY"                      = "Dictionary";
+"GENERAL_SETTINGS_CELL_DICTIONARY_PRESETS"              = "Presets";
+"GENERAL_SETTINGS_CELL_FULL_SCREEN_CUSTOM_DICTIONARY"   = "Full screen custom lookups";
+"GENERAL_SETTINGS_CELL_AUTO_DIM_DICTIONARY"             = "Auto dim dictionary";
+"GENERAL_SETTINGS_CELL_NORMALISE_LOOKUPS"               = "Normalize lookups";
+"GENERAL_SETTINGS_CELL_RECORD_VOCABULARY"               = "Vocabulary builder";
+
+// The 'advanced' section.
+"GENERAL_SETTINGS_CELL_ADVANCED_HEADER"                 = "Advanced (be careful)";
+"GENERAL_SETTINGS_CELL_SEND_DIAGNOSTICS"                = "!!! Send diagnostics";
+"GENERAL_SETTINGS_CELL_RESET_SPOTLIGHT"                 = "!!! Reset Spotlight index";
+"GENERAL_SETTINGS_CELL_RESET_DEEP_VIEW"                 = "!!! Reset Deep View";
+"GENERAL_SETTINGS_CELL_RESET_BOOK_CACHE"                = "!!! Reset book caches";
+"GENERAL_SETTINGS_CELL_SKIP_LARGE_FILES"                = "Skip enormous files";
+"GENERAL_SETTINGS_CELL_BACKUP_AND_RESTORE"              = "Backup and restore";
+
+"GENERAL_SETTINGS_CELL_SEND_DIAGNOSTICS_WARNING"        = "Diagnostics contain all information about your library, books, annotations, and settings. Make sure you only share this information with someone you trust. Continue?";
+"GENERAL_SETTINGS_CELL_SKIP_LARGE_FILES_WARNING"        = "Enabling very large files can cause Marvin to become unstable. Are you sure you want to do this?";
+
+// Confirm spotlight reset.
+"GENERAL_SETTINGS_CONFIRM_SPOTLIGHT_RESET"              = "Are you sure you want to reset Marvin’s Spotlight index? The index will be rebuilt from scratch later on.";
+
+// Confirm Deep View reset.
+"GENERAL_SETTINGS_CONFIRM_DEEP_VIEW_RESET"              = "All your Deep View notes will be deleted too. Books and their annotations are NOT deleted. Continue?";
+
+// Confirm book caches reset.
+"GENERAL_SETTINGS_CONFIRM_BOOK_CACHES_RESET"            = "Marvin automatically manages caches and resetting them might slow things down. Currently using %@. Continue?";
+
+// The menu and choices available for Dropbox 'download search path' setting.
+"GENERAL_SETTINGS_DROPBOX_SEARCH_PATH_TITLE"            = "Dropbox search path";
+"GENERAL_SETTINGS_DROPBOX_SEARCH_PATH_MESSAGE"          = "Choose the path where Marvin should look for books in your Dropbox. Leave blank to search everywhere.";
+"GENERAL_SETTINGS_DB_SEARCH_PATH_CUSTOM"                = "Custom";
+"GENERAL_SETTINGS_DB_SEARCH_PATH_EVERYWHERE"            = "Everywhere";
+
+// The menu and choices available for 'recently opened list' setting.
+"GENERAL_SETTINGS_RECENTLY_OPENED_TITLE"                = "Recently opened books";
+"GENERAL_SETTINGS_RECENTLY_OPENED_TIP"                  = "This is the number of recently opened books shown when long-pressing the ‘Marvin’ button on the home screen.";
+"GENERAL_SETTINGS_RECENTLY_OPENED_NONE"                 = "None";
+"GENERAL_SETTINGS_RECENTLY_OPENED_X_ITEMS"              = "%lu items"; // Placehoders!!!
+
+// The menu and choices available for 'keyboard' setting.
+"GENERAL_SETTINGS_KEYBOARD_COLOUR_TITLE"                = "Keyboard color";
+"GENERAL_SETTINGS_KEYBOARD_COLOUR_TIP"                  = "This is the keyboard color that Marvin uses. If you choose automatic, Marvin will choose the best keyboard color based on the UI theme you are using.";
+
+// The menu and choices for 'quick launch panel size' setting.
+"GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_TITLE"        = "Quick launch panel size";
+"GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_NARROW"       = "Narrow";
+"GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_NORMAL"       = "Normal";
+"GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_WIDE"         = "Wide";
+"GENERAL_SETTINGS_QUICK_LAUNCH_PANEL_SIZE_TIP"          = "This is the width of the quick launch panel. The quick launch panel is not available on smaller devices such as iPhones.";
+
+// The menu and choices available for 'default search provider' setting.
+"GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_TITLE"        = "Web and image searches";
+"GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_GOOGLE"       = "Google";
+"GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_BING"         = "Bing";
+"GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_DUCKDUCKGO"   = "DuckDuckGo";
+"GENERAL_SETTINGS_DEFAULT_SEARCH_PROVIDER_TIP"          = "Choose the search engine that Marvin uses to perform web and image lookups.";
+
+// The menu and choices available for 'title display and sort' setting.
+"GENERAL_SETTINGS_TITLE_SORT_TITLE"                     = "Display and sort by";
+"GENERAL_SETTINGS_TITLE_SORT_TIP"                       = "This determines how book titles are displayed and sorted in your library. This might not work properly if the ‘title sort’ field in your book’s metadata is incorrect.";
+"GENERAL_SETTINGS_TITLE_SORT_TITLE_FIELD"               = "Title field";
+"GENERAL_SETTINGS_TITLE_SORT_TITLE_SORT_FIELD"          = "Title sort field";
+
+// The menu and choices available for 'author display and sort' setting.
+"GENERAL_SETTINGS_AUTHOR_SORT_TITLE"                    = "Display and sort by";
+"GENERAL_SETTINGS_AUTHOR_SORT_TIP"                      = "This determines how authors are displayed and sorted in your library. This might not work properly if the ‘author sort’ field in your book’s metadata is incorrect.";
+"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_FIELD"             = "Author field";
+"GENERAL_SETTINGS_AUTHOR_SORT_AUTHOR_SORT_FIELD"        = "Author sort field";
+
+// The menu and choices available for 'long press Marvin button' setting.
+"GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_TITLE"            = "Long press Marvin button shows";
+"GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_TIP"              = "What to do when pressing the Marvin button in the top toolbar of the home screen.";
+"GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_SCOLLECTIONS"     = "Smart collections";
+"GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_UCOLLECTIONS"     = "User collections";
+"GENERAL_SETTINGS_LONG_PRESS_M_BUTTON_RECENT"           = "Recently opened";
+
+// The menu and choices available for 'list info line' setting.
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TITLE"         = "Info line shows";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_TIP"           = "This value determines what is shown in the extra info line when you are in regular or large text list mode.";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_MARKERS"       = "Markers";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_SUBJECTS"      = "Subjects";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_SERIES"        = "Series";
+"GENERAL_SETTINGS_LIBRARY_LIST_MODE_LINE_BASIC"         = "Basic";
+
+// The menu and choices available for 'backup and restore' option.
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_TITLE"             = "Backup and restore";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_BACKUP"            = "Backup now";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_RESTORE"           = "Restore a backup";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_CLASSIC_TITLE"     = "Marvin Classic";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_CLASSIC_RESTORE"   = "Restore from Marvin Classic";
+
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_TITLE"     = "Delete existing backups";
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_BACKUP"    = "Delete backup (%@)"; // %@ = file size.
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_CLASSIC"   = "Delete Classic backup (%@)"; // %@ = file size.
+"GENERAL_SETTINGS_BACKUP_AND_RESTORE_DELETE_EXISTING_TIP"       = "Choose a restore option to restore existing backups, or use iTunes file sharing to locate and copy backups to your computer.";
+
+// The menu and choices available for 'app badge' setting.
+"GENERAL_SETTINGS_APP_BADGE_TITLE"                      = "App icon badge shows";
+"GENERAL_SETTINGS_APP_BADGE_TIP"                        = "Choose what is shown in the numeric app icon badge. % progress shows your progress in the book you’re currently reading.";
+"GENERAL_SETTINGS_APP_BADGE_OFF"                        = "Nothing";
+"GENERAL_SETTINGS_APP_BADGE_ALL_BOOKS"                  = "Book count";
+"GENERAL_SETTINGS_APP_BADGE_READING_LIST"               = "Reading list";
+"GENERAL_SETTINGS_APP_BADGE_UNREAD_BOOKS"               = "Unread books";
+"GENERAL_SETTINGS_APP_BADGE_PERCENT_PROGRESS"           = "% in book";
+"GENERAL_SETTINGS_APP_BADGE_CHAPTER_PROGRESS"           = "% in chapter";
+
+// The menu and choices available for 'external browser' setting.
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_TITLE"               = "Choose a browser";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_TIP"                 = "This is the web browser that Marvin will use when opening web links. In-App Safari, opens Safari with readability and content blocker support without leaving Marvin. If a third party web browser isn’t installed on your device, Marvin will use In-App Safari.";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_SAFARI"              = "Safari";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_IN_APP_SAFARI"       = "In-App Safari";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_CHROME"              = "Chrome";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_OPERA_MINI"          = "Opera Mini";
+"GENERAL_SETTINGS_EXTERNAL_BROWSER_FIREFOX"             = "Firefox";
+
+// The menu and choices available for 'startup password' setting.
+"GENERAL_SETTINGS_STARTUP_PASSWORD_ON"                  = "Enabled";
+"GENERAL_SETTINGS_STARTUP_PASSWORD_OFF"                 = "Not set";
+
+"GENERAL_SETTINGS_STARTUP_PASSWORD_DONT_MATCH"          = "Passwords don’t match. Try again.";
+"GENERAL_SETTINGS_STARTUP_PASSWORD_INCORRECT"           = "Incorrect password. Try again.";
+
+"GENERAL_SETTINGS_STARTUP_PASSWORD_REPEAT"              = "Type in password again.";
+
+"GENERAL_SETTINGS_STARTUP_PASSWORD_ENABLE_TITLE"        = "Startup password";
+"GENERAL_SETTINGS_STARTUP_PASSWORD_ENABLE_MESSAGE"      = "Enter and repeat a startup password. Passwords are case sensitive and CANNOT be recovered if forgotten.";
+
+"GENERAL_SETTINGS_STARTUP_PASSWORD_DISABLE_TITLE"       = "Disable password";
+"GENERAL_SETTINGS_STARTUP_PASSWORD_DISABLE_MESSAGE"     = "Enter your current startup password to disable it.";
+
+// The menu and choices available for 'dictionary' setting.
+"GENERAL_SETTINGS_DICTIONARY_TITLE"                     = "Dictionary";
+"GENERAL_SETTINGS_DICTIONARY_MESSAGE"                   = "Enter the URL or scheme to a custom dictionary. Leave BLANK for system. Use {text} as the text placeholder.";
+"GENERAL_SETTINGS_DICTIONARY_INVALID"                   = "The URL or scheme you entered does not contain the ‘{text}’ placeholder.";
+"GENERAL_SETTINGS_DICTIONARY_SYSTEM"                    = "System";
+"GENERAL_SETTINGS_DICTIONARY_CUSTOM"                    = "Custom";
+
+// The menu and choices available for 'Wikipedia language prefix' setting.
+"GENERAL_SETTINGS_WIKIPEDIA_PREFIX_TITLE"               = "Wikipedia language prefix";
+"GENERAL_SETTINGS_WIKIPEDIA_PREFIX_MESSAGE"             = "Choose a language prefix (e.g. en, fr, ru, de, es, …) for Marvin to use when searching Wikipedia:";
+"GENERAL_SETTINGS_WIKIPEDIA_PREFIX_INVALID"             = "The language code you entered is invalid. It should be a valid two-letter language code.";
+
+// The menu and choices available for 'morning/evening reminder' setting.
+"IPHONE_SETTINGS_NO_REMINDER"                           = "Off";
+"IPHONE_SETTINGS_NO_REMINDER_PERMISSION"                = "Not allowed";
+"IPHONE_SETTINGS_NO_REMINDER_PERMISSION_TITLE"          = "Notifications";
+"IPHONE_SETTINGS_NO_REMINDER_PERMISSION_MESSAGE"        = "Notifications are disabled. Please go to your device settings app, find Marvin, and enable notifications.";
+"IPHONE_SETTINGS_NO_REMINDER_PERMISSION_FIX"            = "Fix this";
+"IPHONE_SETTINGS_REMINDER_MESSAGE"                      = "It’s time to Read!";
+"IPHONE_SETTINGS_REMINDER_TITLE"                        = "Marvin";
+
+// ********************************************************************************
+// COLOUR SCHEMES (ColourSchemesViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > Choose Marvin's colour scheme
+// ********************************************************************************
+
+"COLOUR_SCHEMES_SCREEN_TITLE"                           = "Color schemes";
+"COLOUR_SCHEMES_HEADER"                                 = "Marvin’s color scheme";
+"COLOUR_SCHEMES_AUTOMATIC_TIP"                          = "Automatically switch between light and dark schemes at around 33% brightness.";
+
+"COLOUR_SCHEMES_LIGHT_SCHEME"                           = "Light";
+"COLOUR_SCHEMES_DARK_SCHEME"                            = "Dark";
+"COLOUR_SCHEMES_GREY_SCHEME"                            = "Steel";
+"COLOUR_SCHEMES_SILVER_SCHEME"                          = "Silver";
+"COLOUR_SCHEMES_CARAMEL_SCHEME"                         = "Caramel";
+"COLOUR_SCHEMES_CAMO_SCHEME"                            = "Camo";
+"COLOUR_SCHEMES_PLUM_SCHEME"                            = "Plum";
+"COLOUR_SCHEMES_BROWN_SCHEME"                           = "Chocolate";
+"COLOUR_SCHEMES_AUTOMATIC_SCHEME"                       = "Automatic";
+
+"COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP_TITLE"               = "Enable all color schemes";
+"COLOUR_SCHEMES_PLEASE_LEAVE_A_TIP"                     = "Please leave a small tip to enable additional color schemes.";
+"COLOUR_SCHEMES_CONTINUE_AND_PREVIEW"                   = "Continue and preview";
+
+"COLOUR_SCHEME_ENABLE_MARKER"                           = "Enable";
+
+// ********************************************************************************
+// MAIN MENU SETTINGS (MainMenuSettingsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > General settings > Home screen menus
+// ********************************************************************************
+
+"MAIN_MENU_SETTINGS_SCREEN_TITLE"                       = "Home screen menu items";
+
+"MAIN_MENU_SETTINGS_TIP"                                = "Choose which items appear in the home screen menus. You can hide items you will not be using to make navigation easier.";
+
+"MAIN_MENU_SETTINGS_COLLECTIONS_SECTION"                = "Collections and lists section";
+"MAIN_MENU_SETTINGS_VIEWING_MODE_SECTION"               = "Viewing mode section";
+"MAIN_MENU_SETTINGS_SORT_SECTION"                       = "Sorting section";
+"MAIN_MENU_SETTINGS_JOURNAL_SECTION"                    = "Reading journal section";
+"MAIN_MENU_SETTINGS_CLOUD_SECTION"                      = "Book downloads section";
+
+// ********************************************************************************
+// DICTIONARY PRESETS (DictionaryPresetsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > General settings > Dictionary presets
+// ********************************************************************************
+
+"DICTIONARY_PRESETS_SCREEN_TITLE"                       = "Dictionary presets";
+
+"CUSTOM_DICTIONARY_SYSTEM"                              = "Use system dictionary";
+"CUSTOM_DICTIONARY_LINGVO"                              = "ABBYY Lingvo (app)";
+"CUSTOM_DICTIONARY_DUDEN"                               = "Duden, German";
+"CUSTOM_DICTIONARY_GOOGLE"                              = "Google (define)";
+"CUSTOM_DICTIONARY_MERRIAM_WEBSTER"                     = "Merriam-Webster, English";
+"CUSTOM_DICTIONARY_SJP"                                 = "SJP, Polish";
+"CUSTOM_DICTIONARY_WIKI_EN"                             = "Wiktionary, English";
+"CUSTOM_DICTIONARY_WIKI_DE"                             = "Wiktionary, German";
+"CUSTOM_DICTIONARY_WIKI_FR"                             = "Wiktionary, French";
+"CUSTOM_DICTIONARY_WIKI_IT"                             = "Wiktionary, Italian";
+"CUSTOM_DICTIONARY_WIKI_RU"                             = "Wiktionary, Russian";
+"CUSTOM_DICTIONARY_WIKI_ES"                             = "Wiktionary, Spanish";
+
+// ********************************************************************************
+// EPUB SETTINGS (ePubSettingsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings
+// ********************************************************************************
+
+"EPUB_SETTINGS_SCREEN_TITLE"                            = "EPUB settings";
+
+"EPUB_SETTINGS_HELP_SCREEN_TITLE"                       = "EPUB settings help";
+
+// The 'global' section.
+"EPUB_SETTINGS_CELL_GLOBAL_HEADER"                      = "Global";
+"EPUB_SETTINGS_CELL_JUSTIFY_TEXT"                       = "Justify text";
+"EPUB_SETTINGS_CELL_HYPHENATE_TEXT"                     = "Hyphenate text";
+"EPUB_SETTINGS_CELL_FAST_THEME_SWITCHING"               = "Fast theme switching";
+"EPUB_SETTINGS_CELL_MULTI_BOOKMARKS"                    = "Multi-color bookmarks";
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR"                 = "Scrubber behavior";
+
+// The 'pagination mode' section.
+"EPUB_SETTINGS_CELL_PAGINATION_MODE_HEADER"             = "Pagination mode";
+"EPUB_SETTINGS_CELL_PAGE_TURN_STYLE"                    = "Page turn style";
+"EPUB_SETTINGS_CELL_PAGE_TURN_SPEED"                    = "Page turn speed";
+"EPUB_SETTINGS_CELL_PAGE_ACCESSORIES"                   = "Page accessories";
+"EPUB_SETTINGS_CELL_HEADERS_AND_FOOTERS"                = "Headers and footers";
+"EPUB_SETTINGS_CELL_VERTICAL_MARGIN_SIZE"               = "Vertical margin size";
+"EPUB_SETTINGS_CELL_CLOCK_IN_HEADER"                    = "Show clock in header";
+"EPUB_SETTINGS_CELL_PAN_FOR_BRIGHTNESS"                 = "Vertical pan for brightness";
+"EPUB_SETTINGS_CELL_GESTURES"                           = "Gestures";
+
+// The 'vertical scrolling mode' section.
+"EPUB_SETTINGS_CELL_VERTICAL_MODE_HEADER"               = "Vertical scrolling mode";
+"EPUB_SETTINGS_CELL_EDGE_TAPPING"                       = "Edge tapping";
+"EPUB_SETTINGS_CELL_GUIDEBAR_ADVANCE"                   = "Guide bar on advance";
+"EPUB_SETTINGS_CELL_BOTTOM_PROGRESS"                    = "Bottom progress bar";
+
+// The 'text selection menu' section.
+"EPUB_SETTINGS_CELL_SELECTION_MENU_HEADER"              = "Text selection menu";
+"EPUB_SETTINGS_CELL_DEEP_VIEW"                          = "Deep View";
+"EPUB_SETTINGS_CELL_DEFINE"                             = "Define/dictionary";
+"EPUB_SETTINGS_CELL_SHARE"                              = "Share";
+"EPUB_SETTINGS_CELL_TEXT_SHOT"                          = "Textshot";
+"EPUB_SETTINGS_CELL_HIGHLIGHT"                          = "Highlight";
+"EPUB_SETTINGS_CELL_ANNOTATE"                           = "Highlight and annotate";
+"EPUB_SETTINGS_CELL_SEARCH"                             = "Search";
+"EPUB_SETTINGS_CELL_WIKIPEDIA"                          = "Wikipedia";
+"EPUB_SETTINGS_CELL_CUSTOM_COMMANDS"                    = "Custom commands";
+
+// The 'custom fonts' section.
+"EPUB_SETTINGS_CELL_FONTS_HEADER"                       = "Custom fonts";
+"EPUB_SETTINGS_CELL_MANAGE_FONTS"                       = "Manage";
+
+// The 'text-to-speech' section.
+"EPUB_SETTINGS_CELL_TTS_HEADER"                         = "Text-to-speech";
+"EPUB_SETTINGS_CELL_TTS_FOLLOW_PARAGRAPHS"              = "Follow paragraphs and chapters";
+"EPUB_SETTINGS_CELL_TTS_SPOKEN_LANGUAGE"                = "Speak in";
+
+// THe menu for the 'scrubber behaviour' setting
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_TITLE"           = "Book scrubber";
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_SECTION"         = "Within section";
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_CONTENTS"        = "Book contents";
+"EPUB_SETTINGS_CELL_SCRUBBER_BEHAVIOUR_TIP"             = "Choose whether the bottom book scrubber scrubs within the current section, or within the book’s table of contents. You can also toggle between these modes by long pressing the bottom scrubber in the book.";
+
+// The menu and choices available for 'page turn style' setting.
+"EPUB_SETTINGS_PAGE_TURN_STYLE_TITLE"                   = "Page turn style";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_TIP"                     = "This is the animation effect that Marvin will use when turning pages in pagination mode.";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_INSTANT"                 = "Instant";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_SLIDE"                   = "Slide";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_FADE"                    = "Fade";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_SQUEEZE"                 = "Squeeze";
+"EPUB_SETTINGS_PAGE_TURN_STYLE_REVEAL"                  = "Reveal";
+
+// The menu and choices available for 'page turn speed' setting.
+"EPUB_SETTINGS_PAGE_TURN_SPEED_TITLE"                   = "Page turn speed";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_TIP"                     = "The speed of the animation effect when turning pages. Not applicable when page turn style is instant.";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_SLOWEST"                 = "Slowest";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_SLOW"                    = "Slow";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_NORMAL"                  = "Normal";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_FAST"                    = "Fast";
+"EPUB_SETTINGS_PAGE_TURN_SPEED_FASTEST"                 = "Fastest";
+
+// The menu and choices available for 'page accessories' setting.
+"EPUB_SETTINGS_PAGE_ACCESSORIES_TITLE"                  = "Page accessories";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_TIP"                    = "What to show in the page headers and footers. Accessories may not fit on smaller devices when the vertical margin is set to narrow.";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_CN"                  = "Pages left and chapter name";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_TC"                  = "Pages left and total in chapter";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PR_TC"                  = "Pages read and total in chapter";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_TB"                  = "Pages left and total in book";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PR_TB"                  = "Pages read and total in book";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_EVERYTHING"             = "Everything";
+
+// The 'short' version of above.
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_CN_SHORT"            = "Left+Chapter";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_TC_SHORT"            = "Left + Count*";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PR_TC_SHORT"            = "Read + Count*";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PL_TB_SHORT"            = "Left + Count";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_PR_TB_SHORT"            = "Read + Count";
+"EPUB_SETTINGS_PAGE_ACCESSORIES_EVERYTHING_SHORT"       = "Everything";
+
+// The menu and choices available for 'headers and footers' setting.
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_TITLE"               = "Accessory preferences";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_TIP"                 = "How to display accessories in page headers and footers.";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_DIM"                 = "Dim";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_PROMINENT"           = "Prominent";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_HIDDEN"              = "Hidden";
+"EPUB_SETTINGS_HEADERS_AND_FOOTERS_PROGRESS_BAR"        = "Progress bar";
+
+// The menu and choices available for 'vertical margin size' setting.
+"EPUB_SETTINGS_VERTICAL_MARGINS_TITLE"                  = "Vertical margin size";
+"EPUB_SETTINGS_VERTICAL_MARGINS_TIP"                    = "Headers and footers might not fit on smaller devices when vertical margins are set to narrow.";
+"EPUB_SETTINGS_VERTICAL_MARGINS_NORMAL"                 = "Normal";
+"EPUB_SETTINGS_VERTICAL_MARGINS_SMALL"                  = "Narrow";
+"EPUB_SETTINGS_VERTICAL_MARGINS_LARGE"                  = "Wide";
+
+// The values possible to show the number of custom text menu commands created.
+"EPUB_SETTINGS_CUSTOM_COMMANDS_0_COMMANDS"              = "None";
+"EPUB_SETTINGS_CUSTOM_COMMANDS_1_COMMAND"               = "1 command";
+"EPUB_SETTINGS_CUSTOM_COMMANDS_X_COMMANDS"              = "%lu commands"; // Placeholder!!!
+
+// The values possible to show the number of custom fonts added.
+"EPUB_SETTINGS_CUSTOM_FONTS_0_FONTS"                    = "None";
+"EPUB_SETTINGS_CUSTOM_FONTS_1_FONT"                     = "1 font";
+"EPUB_SETTINGS_CUSTOM_FONTS_X_FONTS"                    = "%lu fonts"; // Placeholder!!!
+
+// The choices available for the text to speech language.
+"EPUB_SETTINGS_TEXT_TO_SPEECH_LANGUAGE_TITLE"           = "Use voice when speaking (global)";
+"EPUB_SETTINGS_TEXT_TO_SPEECH_LANGUAGE_AUTOMATIC"       = "Set by book";
+
+// ********************************************************************************
+// GESTURE SETTINGS (GesturesViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB/CBx settings > Gestures
+// ********************************************************************************
+
+"GESTURE_SETTINGS_SCREEN_TITLE_EPUB"                    = "EPUB Gestures";
+"GESTURE_SETTINGS_SCREEN_TITLE_CBX"                     = "CBx Gestures";
+
+// The 'gestures' section.
+"GESTURE_SETTINGS_CELL_GESTURES_HEADER"                 = "Gestures in pagination mode";
+"GESTURE_SETTINGS_CELL_LEFT_TAP"                        = "Tap left side";
+"GESTURE_SETTINGS_CELL_RIGHT_TAP"                       = "Tap right side";
+"GESTURE_SETTINGS_CELL_TWO_FINGER_SWIPE"                = "2-finger swipe";
+
+// The menu and choices available for 'left/right tap' setting.
+"GESTURE_SETTINGS_TAP_LEFT_TITLE"                       = "Left page tap action";
+"GESTURE_SETTINGS_TAP_LEFT_TIP"                         = "Choose an action to perform when tapping the left side of the page.";
+"GESTURE_SETTINGS_TAP_RIGHT_TITLE"                      = "Right page tap action";
+"GESTURE_SETTINGS_TAP_RIGHT_TIP"                        = "Choose an action to perform when tapping the right side of the page.";
+"GESTURE_SETTINGS_TAP_NOTHING"                          = "Nothing";
+"GESTURE_SETTINGS_TAP_NEXT"                             = "Next page";
+"GESTURE_SETTINGS_TAP_PREVIOUS"                         = "Previous page";
+
+// The menu and choices available for 'two-finger swipe' setting.
+"GESTURE_SETTINGS_SWIPE_TWO_FINGERS_TITLE"              = "Two-finger swipe action";
+"GESTURE_SETTINGS_SWIPE_TWO_FINGERS_TIP"                = "Choose an action to perform when swiping the page with two fingers. Smart snap snaps to the nearest bookmark or chapter boundary.";
+"GESTURE_SETTINGS_SWIPE_NOTHING"                        = "Nothing";
+"GESTURE_SETTINGS_SWIPE_JUMP_5"                         = "Jump 5 pages";
+"GESTURE_SETTINGS_SWIPE_JUMP_10"                        = "Jump 10 pages";
+"GESTURE_SETTINGS_SWIPE_SMART_SNAP"                     = "Smart snap";
+
+// ********************************************************************************
+// Hardare Keyboard Settings (HardwareKeyboardViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > General > Hardware keyboard
+// ********************************************************************************
+
+"HW_KEYBOARD_SETTINGS_SCREEN_TITLE"                     = "Hardware keyboard or remote";
+"HW_KEYBOARD_SETTINGS_TIP"                              = "Configure Bluetooth keyboard and handheld remote key actions while you are in a book. On iPad, hold down the Ctrl or Cmd keys to show your current key assignments.";
+
+"HW_KEYBOARD_SETTINGS_PAGE_MODE_HEADER"                 = "Pagination mode + comics";
+"HW_KEYBOARD_SETTINGS_PAGE_NAV_ARROWS"                  = "← and → arrows";
+"HW_KEYBOARD_SETTINGS_PAGE_NAV_ARROWS_VALUE"            = "Prev/next page";
+"HW_KEYBOARD_SETTINGS_PAGE_UP_ARROW"                    = "↑ arrow";
+"HW_KEYBOARD_SETTINGS_PAGE_DOWN_ARROW"                  = "↓ arrow";
+"HW_KEYBOARD_SETTINGS_PAGE_CMD_UP_ARROW"                = "Cmd + ↑ arrow";
+"HW_KEYBOARD_SETTINGS_PAGE_CMD_DOWN_ARROW"              = "Cmd + ↓ arrow";
+
+"HW_KEYBOARD_SETTINGS_SCROLL_MODE_HEADER"               = "Vertical scrolling mode";
+"HW_KEYBOARD_SETTINGS_SCROLL_NAV_ARROWS"                = "↑ and ↓ arrows";
+"HW_KEYBOARD_SETTINGS_SCROLL_NAV_ARROWS_VALUE"          = "Up/down page";
+"HW_KEYBOARD_SETTINGS_SCROLL_LEFT_ARROW"                = "← arrow";
+"HW_KEYBOARD_SETTINGS_SCROLL_RIGHT_ARROW"               = "→ arrow";
+"HW_KEYBOARD_SETTINGS_SCROLL_CMD_LEFT_ARROW"            = "Cmd + ← arrow";
+"HW_KEYBOARD_SETTINGS_SCROLL_CMD_RIGHT_ARROW"           = "Cmd + → arrow";
+
+"HW_KEYBOARD_SETTINGS_ANY_MODE_HEADER"                  = "Keys in all modes";
+"HW_KEYBOARD_SETTINGS_ANY_ENTER"                        = "Enter/return";
+"HW_KEYBOARD_SETTINGS_ANY_ESCAPE"                       = "Escape";
+"HW_KEYBOARD_SETTINGS_ANY_SPACE"                        = "Space";
+"HW_KEYBOARD_SETTINGS_ANY_BACKSPACE"                    = "Backspace/delete";
+
+"HW_KEYBOARD_SELECT_MENU_HEADER"                        = "Perform an action";
+"HW_KEYBOARD_BEGINNING_OF_CHAPTER_VALUE"                = "Beginning of chapter";
+"HW_KEYBOARD_END_OF_CHAPTER_VALUE"                      = "End of chapter";
+"HW_KEYBOARD_BOOKMARK_VALUE"                            = "Bookmark";
+"HW_KEYBOARD_CLOSE_BOOK_VALUE"                          = "Close book";
+"HW_KEYBOARD_BRIGHTNESS_UP_VALUE"                       = "Brightness up";
+"HW_KEYBOARD_BRIGHTNESS_DOWN_VALUE"                     = "Brightness down";
+"HW_KEYBOARD_CHANGE_COLOUR_THEME_VALUE"                 = "Change color theme";
+"HW_KEYBOARD_TOGGLE_TOOLBAR"                            = "Toggle toolbar/pause";
+"HW_KEYBOARD_NOTHING_VALUE"                             = "Nothing";
+
+// ********************************************************************************
+// CBx SETTINGS (cbxSettingsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > CBx settings
+// ********************************************************************************
+
+"CBX_SETTINGS_SCREEN_TITLE"                             = "CBx settings";
+
+"CBX_SETTINGS_HELP_SCREEN_TITLE"                        = "CBx settings help";
+
+"CBX_SETTINGS_CELL_GLOBAL_HEADER"                       = "Global";
+"CBX_SETTINGS_CELL_FAST_THEME_SWITCHING"                = "Fast theme switching";
+"CBX_SETTINGS_CELL_MULTI_BOOKMARKS"                     = "Multi-color bookmarks";
+"CBX_SETTINGS_CELL_BOTTOM_PROGRESS"                     = "Bottom progress bar";
+"CBX_SETTINGS_CELL_ZOOM_WIDGET"                         = "Show zoom widget";
+"CBX_SETTINGS_CELL_FRAMING_SIZE"                        = "Framing size";
+"CBX_SETTINGS_CELL_PAGE_TURN_STYLE"                     = "Page turn style";
+"CBX_SETTINGS_CELL_ANIMATION_SPEED"                     = "Animation speed";
+"CBX_SETTINGS_CELL_GESTURES"                            = "Gestures";
+
+"CBX_SETTINGS_FRAMING_SIZE_MENU_TITLE"                  = "Framing size";
+"CBX_SETTINGS_FRAMING_SIZE_MENU_TIP"                    = "This is the size of the page when zoomed to fit the screen. Choose a value less than 100% if you like having a matte border around the page.";
+"CBX_SETTINGS_FRAMING_SIZE_100"                         = "100%";
+"CBX_SETTINGS_FRAMING_SIZE_95"                          = "95%";
+"CBX_SETTINGS_FRAMING_SIZE_90"                          = "90%";
+
+// The menu and choices available for 'page turn speed' setting.
+"CBX_SETTINGS_PAGE_TURN_SPEED_TITLE"                    = "Animation speed";
+"CBX_SETTINGS_PAGE_TURN_SPEED_TIP"                      = "The speed of animation effects when turning and zig-zagging through pages.";
+"CBX_SETTINGS_PAGE_TURN_SPEED_SLOWEST"                  = "Slowest";
+"CBX_SETTINGS_PAGE_TURN_SPEED_SLOW"                     = "Slow";
+"CBX_SETTINGS_PAGE_TURN_SPEED_NORMAL"                   = "Normal";
+"CBX_SETTINGS_PAGE_TURN_SPEED_FAST"                     = "Fast";
+"CBX_SETTINGS_PAGE_TURN_SPEED_FASTEST"                  = "Fastest";
+
+
+// ********************************************************************************
+// CUSTOM TEXT MENU COMMANDS (CustomTextMenuCommandsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Custom commands
+// ********************************************************************************
+
+"CUSTOM_COMMAND_SCREEN_TITLE"                           = "Custom commands";
+
+// The list of possible custom command preset names.
+"CUSTOM_COMMAND_PRESET_WIKIPEDIA"                       = "Look up in Wikipedia";
+"CUSTOM_COMMAND_PRESET_WIKTIONARY_EN"                   = "Define in Wiktionary (en)";
+"CUSTOM_COMMAND_PRESET_GOOGLE_TRANSLATE_RU"             = "Translate in Google (ru)";
+"CUSTOM_COMMAND_PRESET_EMAIL_FRIEND"                    = "Email selected text to a friend";
+"CUSTOM_COMMAND_PRESET_COPY"                            = "Copy selected text";
+"CUSTOM_COMMAND_PRESET_COPY_DETAIL"                     = "Copy selected text with details";
+"CUSTOM_COMMAND_PRESET_TEXTSHOT"                        = "Selected text to textshot";
+"CUSTOM_COMMAND_PRESET_GOOGLE_MAPS"                     = "Search in Google Maps";
+"CUSTOM_COMMAND_PRESET_TWEET"                           = "Tweet selected text";
+"CUSTOM_COMMAND_PRESET_FACEBOOK"                        = "Post to Facebook";
+"CUSTOM_COMMAND_PRESET_TWEETBOT"                        = "Tweet using Tweetbot (if installed)";
+"CUSTOM_COMMAND_PRESET_TWITTERRIFIC"                    = "Tweet using Twitterrific (if installed)";
+"CUSTOM_COMMAND_PRESET_WEB_SEARCH"                      = "Web search";
+"CUSTOM_COMMAND_PRESET_IMAGE_SEARCH"                    = "Image search";
+"CUSTOM_COMMAND_PRESET_RAMBLER"                         = "Search in Rambler.ru";
+"CUSTOM_COMMAND_PRESET_GOODREADS_QUOTES"                = "Goodreads quotes search";
+"CUSTOM_COMMAND_PRESET_TERMINOLOGY"                     = "Send to Terminology (if installed)";
+"CUSTOM_COMMAND_PRESET_PLECO"                           = "Pleco Chinese dictionary (if installed)";
+"CUSTOM_COMMAND_PRESET_IMDB"                            = "Search in IMDb app (if installed)";
+"CUSTOM_COMMAND_PRESET_VOCAB"                           = "Add to my vocabulary";
+
+// The list of possible custom command preset display names (what is actually shown in the text selection menu).
+"CUSTOM_COMMAND_PRESET_WIKIPEDIA_DISPLAY"               = "Wikipedia";
+"CUSTOM_COMMAND_PRESET_WIKTIONARY_EN_DISPLAY"           = "Wiktionary (en)";
+"CUSTOM_COMMAND_PRESET_GOOGLE_TRANSLATE_RU_DISPLAY"     = "Google translate (ru)";
+"CUSTOM_COMMAND_PRESET_EMAIL_FRIEND_DISPLAY"            = "Email %@"; // %@ = Friend's name.
+"CUSTOM_COMMAND_PRESET_COPY_DISPLAY"                    = "Copy";
+"CUSTOM_COMMAND_PRESET_COPY_DETAIL_DISPLAY"             = "Copy with details";
+"CUSTOM_COMMAND_PRESET_TEXTSHOT_DISPLAY"                = "Share or save textshot";
+"CUSTOM_COMMAND_PRESET_GOOGLE_MAPS_DISPLAY"             = "Search in Google Maps";
+"CUSTOM_COMMAND_PRESET_TWEET_DISPLAY"                   = "Tweet selected text";
+"CUSTOM_COMMAND_PRESET_FACEBOOK_DISPLAY"                = "Facebook";
+"CUSTOM_COMMAND_PRESET_TWEETBOT_DISPLAY"                = "Tweetbot";
+"CUSTOM_COMMAND_PRESET_TWITTERRIFIC_DISPLAY"            = "Twitterrific";
+"CUSTOM_COMMAND_PRESET_WEB_SEARCH_DISPLAY"              = "Web search";
+"CUSTOM_COMMAND_PRESET_IMAGE_SEARCH_DISPLAY"            = "Image search";
+"CUSTOM_COMMAND_PRESET_RAMBLER_DISPLAY"                 = "Search in Rambler";
+"CUSTOM_COMMAND_PRESET_GOODREADS_QUOTES_DISPLAY"        = "Goodreads quotes search";
+"CUSTOM_COMMAND_PRESET_TERMINOLOGY_DISPLAY"             = "Terminology";
+"CUSTOM_COMMAND_PRESET_PLECO_DISPLAY"                   = "Pleco";
+"CUSTOM_COMMAND_PRESET_IMDB_DISPLAY"                    = "IMDb";
+"CUSTOM_COMMAND_PRESET_VOCAB_DISPLAY"                   = "Add to vocabulary";
+
+// Error messages.
+"CUSTOM_COMMAND_MISSING_DISPLAY_NAME"                   = "Please enter a display name for this command. The display name is what will be shown in the text menu button.";
+"CUSTOM_COMMAND_MISSING_COMMAND_URL"                    = "Please enter a command. Commands are usually web URLs or app URL schemes.";
+
+// Request for friend name and email.
+"CUSTOM_COMMAND_FRIEND_TITLE"                           = "Friend details";
+"CUSTOM_COMMAND_FRIEND_MESSAGE"                         = "Your friend’s name and email address:";
+"CUSTOM_COMMAND_FRIEND_NAME_PLACEHOLDER"                = "Name or nickname (required)";
+"CUSTOM_COMMAND_FRIEND_EMAIL_PLACEHOLDER"               = "Email address (required)";
+
+// Main menu of the screen.
+"CUSTOM_COMMANDS_MENU_EDIT_MODE_TITLE"                  = "Order text commands";
+"CUSTOM_COMMANDS_MENU_ENTER_EDIT_MODE"                  = "Enter sort mode";
+"CUSTOM_COMMANDS_MENU_LEAVE_EDIT_MODE"                  = "Leave sort mode";
+
+"CUSTOM_COMMANDS_MENU_EXPORT_TITLE"                     = "Share and sync";
+"CUSTOM_COMMANDS_MENU_EXPORT_TIP"                       = "Create and send a file to Marvin on another device to exchange custom commands with it.";
+"CUSTOM_COMMANDS_MENU_EXPORT"                           = "Export custom commands";
+
+// ********************************************************************************
+// CUSTOM TEXT MENU COMMAND EDITOR (EditCustomTextMenuCommandViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Custom commands > Add button -or- tap on existing command
+// ********************************************************************************
+
+"CUSTOM_COMMAND_EDITOR_SCREEN_TITLE"                    = "Command";
+
+"CUSTOM_COMMAND_EDITOR_DISPLAY_NAME"                    = "Display name:";
+"CUSTOM_COMMAND_EDITOR_COMMAND_URL"                     = "Command, web, or app URL:";
+"CUSTOM_COMMAND_EDITOR_COMMAND_ENABLED"                 = "Enabled";
+
+// Careful about \n escapes in the following:
+"CUSTOM_COMMAND_EDITOR_TIP"                             = "Command placeholders include: {text} - the selected text, {define} - the selected text that will also be added to your vocabulary, {title} - the title of the book, {author} - the author(s) of the book, {chapter} - the name of the current chapter.";
+
+"CUSTOM_COMMAND_EDITOR_PRESET"                          = "Get started with a preset…";
+
+// ********************************************************************************
+// CUSTOM TEXT MENU PRESETS (CustomTextMenuCommandPresetsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Custom commands > Preset...
+// ********************************************************************************
+
+"CUSTOM_COMMAND_PRESETS_SCREEN_TITLE"                   = "Command presets";
+
+// ********************************************************************************
+// CUSTOM FONTS (CustomFontsViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Manage custom fonts
+// ********************************************************************************
+
+"CUSTOM_FONTS_SCREEN_TITLE"                             = "Custom fonts";
+
+// Main menu of the screen.
+"CUSTOM_FONTS_MENU_EXPORT_TITLE"                        = "Share and sync";
+"CUSTOM_FONTS_MENU_EXPORT_TIP"                          = "Create and send a file to Marvin on another device to exchange custom fonts with it.";
+"CUSTOM_FONTS_MENU_EXPORT"                              = "Export custom fonts";
+
+// ********************************************************************************
+// CUSTOM FONT EDITOR (EditCustomFontViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Manage custom fonts > Add button -or- tap on existing font
+// ********************************************************************************
+
+"CUSTOM_FONT_EDITOR_SCREEN_TITLE"                       = "Font";
+
+"CUSTOM_FONT_EDITOR_REGULAR_LABEL"                      = "Regular font file:";
+"CUSTOM_FONT_EDITOR_ITALIC_LABEL"                       = "Italic font file:";
+"CUSTOM_FONT_EDITOR_BOLD_LABEL"                         = "Bold font file:";
+"CUSTOM_FONT_EDITOR_BOLD_ITALIC_LABEL"                  = "Bold-italic font file:";
+
+"CUSTOM_FONT_EDITOR_SELECT_FONT"                        = "Select…";
+
+"CUSTOM_FONT_EDITOR_BAD_FONT"                           = "The font you specified is invalid. Make sure you selected all four styles and that they all belong to the same font family.";
+
+// ********************************************************************************
+// CUSTOM FONT PICKER (CustomFontPickerViewController)
+// ********************************************************************************
+// Access from: Home > Settings button > EPUB settings > Manage custom fonts > Font editor.
+// ********************************************************************************
+
+"CUSTOM_FONT_PICKER_SCREEN_TITLE"                       = "Fonts in documents directory";
+
+// Error shown if there are no TTF/OTF fonts in Marvin's /documents directory.
+"CUSTOM_FONT_PICKER_NO_FONTS"                           = "No fonts found. TTF/OTF fonts must be placed in Marvin’s documents directory (not recursive).";
+
+// ********************************************************************************
+// DROPBOX SCREEN (DropboxViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Dropbox
+// ********************************************************************************
+
+"DROPBOX_SCREEN_TITLE"                                  = "Dropbox";
+
+// Placeholder in search box.
+"DROPBOX_SEARCH_BOX_PLACEHOLDER"                        = "Type here to search by file name…";
+
+"DROPBOX_NO_FREE_SPACE_TO_DOWNLOAD"                     = "You don’t have enough free space to download the books you selected.";
+
+// Multi download menu.
+"DROPBOX_MENU_MULTI_DOWNLOAD_TITLE"                     = "Multi download";
+"DROPBOX_MENU_MULTI_DOWNLOAD_TIP"                       = "After choosing all the files you want to download in multi-select mode, tap the checkmark button in the top toolbar to start downloading.";
+"DROPBOX_MENU_MULTI_DOWNLOAD_SELECT"                    = "Select multiple files";
+"DROPBOX_MENU_MULTI_DOWNLOAD_DOWNLOAD_EVERYTHING"       = "Download everything";
+
+// Sort menu.
+"DROPBOX_MENU_SORT_TITLE"                               = "Sort by";
+"DROPBOX_MENU_SORT_FILENAME"                            = "File name";
+"DROPBOX_MENU_SORT_NEWEST"                              = "Date, newest";
+"DROPBOX_MENU_SORT_OLDEST"                              = "Date, oldest";
+"DROPBOX_MENU_SORT_BIGGEST"                             = "File size, largest";
+"DROPBOX_MENU_SORT_SMALLEST"                            = "File size, smallest";
+
+// Open Dropbox app download.
+"DROPBOX_MENU_OPEN_APP_TITLE"                           = "Dropbox";
+"DROPBOX_MENU_OPEN_APP_TIP"                             = "Requires the official Dropbox app to be installed on your device.";
+"DROPBOX_MENU_OPEN_APP_LAUNCH"                          = "Launch Dropbox";
+
+"DROPBOX_OPEN_APP_NOT_INSTALLED"                        = "The Dropbox app isn’t installed on this device.";
+
+"DROPBOX_NO_FILES"                                      = "Dropbox, no files";
+"DROPBOX_1_FILE"                                        = "Dropbox, 1 file";
+"DROPBOX_X_FILES"                                       = "Dropbox, %@ files"; // Placeholder!
+
+"DROPBOX_1_NEW_FILE"                                    = "1 new file…";
+"DROPBOX_X_NEW_FILES"                                   = "%lu new files…"; // Placeholder!
+
+"DROPBOX_SELECTED_FILE_EXISTS"                          = "This file already exists in your library. Overwrite or skip?";
+
+"DROPBOX_CONNECT_ERROR"                                 = "An error occurred while accessing your Dropbox (%li). Are you connected to the internet?"; // Placeholder.
+
+"DROPBOX_DOWNLOAD_1_FILE"                               = "Download 1 file?";
+"DROPBOX_DOWNLOAD_X_FILES"                              = "Download %lu files?";
+"DROPBOX_DOWNLOAD_SKIP_OVERWRITE"                       = "One or more files already exist in your library. What would you like to do?";
+
+"DROPBOX_DOWNLOAD_FAILED"                               = "%lu file(s) were successfully imported and %lu file(s) failed. Your might have lost your internet connection, Dropbox might be temporarily unavailable, or the files are too large, damaged or encrypted.";
+
+// The alert shown to the user when 'download' everything' is chosen.
+"DROPBOX_DOWNLOAD_EVERYTHING_ALREADY_IN_LIBRARY"        = "All the books in your Dropbox are already in your library.";
+"DROPBOX_DOWNLOAD_CONFIRM_TITLE"                        = "%lu file(s) - %@"; // Placeholder - file count and file size.
+"DROPBOX_DOWNLOAD_CONFIRM_MESSAGE"                      = "Are you sure you want to download everything to your library? This can take very long and use a lot of space on your device.";
+
+// ********************************************************************************
+// OPDS SCREEN (OpdsViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > OPDS
+// ********************************************************************************
+
+"OPDS_SCREEN_TITLE"                                     = "OPDS";
+
+// Favourites button.
+"OPDS_FAVOURITES_BUTTON"                                = "Favorites";
+
+// Pull up to get more message.
+"OPDS_FETCHING_MORE_ENTRIES"                            = "Fetching more entries…";
+
+// Error messages.
+"OPDS_ERROR_BAD_USER"                                   = "The username and password you entered for this catalog are incorrect or Marvin does not support the catalog’s is authentication method.";
+"OPDS_ERROR_BAD_ADDRESS"                                = "The download address (%@) is invalid.";
+"OPDS_ERROR_DOWNLOAD_FAILED_FOR_FEED"                   = "Cannot download feed. The service might not be available or you are not connected to the internet.";
+"OPDS_ERROR_DOWNLOAD_FAILED_FOR_BOOK"                   = "Cannot download book. The service might not be available or you are not connected to the internet.";
+"OPDS_ERROR_DOWNLOAD_FAILED_FOR_OPEN_SEARCH"            = "Cannot determine search location. The service might not be available or you are not connected to the internet.";
+"OPDS_NO_RESULTS_FOUND"                                 = "No results found.";
+
+"OPDS_MULTI_DOWNLOAD_NOT_SUPPORTED_FORMAT"              = "Multiple downloads are only supported for EPUB, CBR, and CBZ books. Books in a different format can be downloaded individually when you're not in multi-download mode.";
+"OPDS_DOWNLOAD_NOT_SUPPORTED_FORMAT"                    = "This book isn’t available as an EPUB, CBR, or CBZ. You can tap the reveal button next to the book to see which other formats it is available in.";
+
+// Multi download menu.
+"OPDS_MENU_MULTI_DOWNLOAD_TITLE"                        = "Multiple downloads";
+"OPDS_MENU_MULTI_DOWNLOAD_TIP"                          = "Download multiple books at once. When you’ve finished selecting multiple books, tap the checkmark button in the top toolbar to start downloading them.";
+"OPDS_MENU_MULTI_DOWNLOAD_ENTER"                        = "Enter multi-download mode";
+"OPDS_MENU_MULTI_DOWNLOAD_LEAVE"                        = "Leave multi-download mode";
+
+// Messages related to searching the catalog.
+"OPDS_ERROR_SEARCH_LOCATION_NOT_FOUND"                  = "Cannot determine the address to search this OPDS feed.";
+"OPDS_SEARCH_CATALOG_FOR"                               = "Search this catalog for:";
+
+// Show book details menu (tapping '...' button of a book).
+"OPDS_MENU_REVEAL_DETAILS_TITLE"                        = "About this book";
+"OPDS_MENU_REVEAL_DETAILS_TIP"                          = "Show more information about this book.";
+"OPDS_MENU_REVEAL_DETAILS_SHOW"                         = "Show details";
+
+// Show book formats menu (tapping '...' button of a book).
+"OPDS_MENU_REVEAL_FORMATS_TITLE"                        = "Available as";
+"OPDS_MENU_REVEAL_FORMATS_TIP"                          = "EPUB, CBR, and CBZ books will be added to your library. Marvin can download books in other formats and will offer to open them in another app for you.";
+
+// Messages related to multiple download completion.
+"OPDS_MULTI_DOWNLOAD_SUCCESS"                           = "%lu file(s) where downloaded and added to your library.";
+"OPDS_MULTI_DOWNLOAD_FAILED"                            = "%lu file(s) imported.\n%lu file(s) are either already in your library, too big, damaged or encrypted, or their download failed.";
+
+// The message box shown to enter credentials for auto-opds fuctionality.
+"OPDS_AUTO_LOG_IN_TITLE"                                = "Log in";
+"OPDS_AUTO_LOG_IN_MESSAGE"                              = "Your username and password to connect to %@:"; // Placeholder!
+"OPDS_AUTO_LOG_IN_MESSAGE_WITH_HINT"                    = "Your username and password to connect to %@ (hint: the last password you used starts with ‘%@’):"; // Placeholders x2!
+
+// ********************************************************************************
+// OPDS FAVOURITES SCREEN (OpdsFavouritesViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > OPDS > Favourites
+// ********************************************************************************
+
+"OPDS_FAVOURITES_SCREEN_TITLE"                          = "OPDS favorites";
+
+"OPDS_FAVOURITES_DELETE_MESSAGE"                        = "Delete this favorite?";
+
+// Export favourites menu.
+"OPDS_MENU_FAVOURITES_TITLE"                            = "Share and sync";
+"OPDS_MENU_FAVOURITES_TIP"                              = "Create and send a file to Marvin on another device to exchange OPDS favorites with it. Password WILL NOT be exported - you’ll have to enter them manually after importing them on a different device.";
+"OPDS_MENU_FAVOURITES_EXPORT"                           = "Export OPDS favorites";
+
+// ********************************************************************************
+// OPDS FAVOURITES EDITOR SCREEN (OpdsFavouriteEditorViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > OPDS > Favourites > Add button -or- slide to edit
+// ********************************************************************************
+
+"OPDS_FAVOURITES_EDITOR_SCREEN_TITLE"                   = "OPDS entry";
+
+"OPDS_FAVOURITES_EDITOR_NAME_FIELD"                     = "Name:";
+"OPDS_FAVOURITES_EDITOR_ADDRESS_FIELD"                  = "Address:";
+"OPDS_FAVOURITES_EDITOR_USERNAME_FIELD"                 = "Username:";
+"OPDS_FAVOURITES_EDITOR_PASSWORD_FIELD"                 = "Password:";
+"OPDS_FAVOURITES_EDITOR_TIP"                            = "calibre addresses usually look like ‘192.168.0.1:8080/opds’ (don’t forget the port number and /opds at the end). Usernames and passwords are not encrypted. Make sure that your device is protected using Touch ID or a PIN.";
+
+// Error message.
+"OPDS_FAVOURITES_EDITOR_MISSING_VALUE"                  = "A name and address are required.";
+
+// ********************************************************************************
+// OPDS ENTRY DETAIL SCREEN (OpdsEntryDetailViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > OPDS > Tap '...' button next to book > Show details
+// ********************************************************************************
+
+"OPDS_ENTRY_DETAIL_NO_DESCRIPTION"                      = "This book has no summary or description.";
+
+// ********************************************************************************
+// WEB BROWSER SCREEN (WebBrowserViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Web browser
+// ********************************************************************************
+
+"WEB_BROWSER_ADDRESS_BAR_PLACEHOLDER"                   = "Enter web address";
+
+"WEB_BROWSER_FAVOURITES"                                = "Favorites";
+
+// Web browser main menu items.
+"WEB_BROWSER_MENU_TITLE"                                = "Page options and sharing";
+"WEB_BROWSER_MENU_EXTERNAL_BROWSER"                     = "Open in %@"; // Placeholder.
+"WEB_BROWSER_MENU_COPY"                                 = "Copy address";
+"WEB_BROWSER_MENU_SHARE_LINK"                           = "Share link";
+"WEB_BROWSER_MENU_RELOAD"                               = "Reload page";
+
+"WEB_BROWSER_CONFIRM_DOWNLOAD"                          = "Download from %@?"; // Placeholder.
+
+"WEB_BROWSER_DOWNLOAD_TYPE_NOT_SUPPORTED"               = "Marvin doesn’t support documents of this type.";
+
+"WEB_BROWSER_ERROR_CANNOT_OPEN_PAGE"                    = "Cannot load page. Make sure that the address is correct and that you are connected to the internet.";
+
+
+// ********************************************************************************
+// WEB DICTIONARY SCREEN (WebDictionaryViewController)
+// ********************************************************************************
+// Shown when looking up a word in a web dictionary.
+// ********************************************************************************
+
+"WEB_DICTIONARY_OTHER_SOURCES_TITLE"                    = "Other sources";
+"WEB_DICTIONARY_OTHER_SOURCES_WIKIPEDIA"                = "Wikipedia";
+"WEB_DICTIONARY_OTHER_SOURCES_WEB_SEARCH"               = "Web search";
+
+// ********************************************************************************
+// WEB BROWSER FAVOURITES SCREEN (WebBrowserFavouritesViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Web browser > Favourites
+// ********************************************************************************
+
+"WEB_BROWSER_FAVOURITES_SCREEN_TITLE"                   = "Web favorites";
+"WEB_BROWSER_FAVOURITES_NO_CURRENT_URL"                 = "There is no loaded page to add, or the page is still loading.";
+
+"WEB_BROWSER_ADD_FAVOURITE_TITLE"                       = "New favorite";
+"WEB_BROWSER_ADD_FAVOURITE_MESSAGE"                     = "Name for %@:";
+"WEB_BROWSER_ADD_FAVOURITE_SAVE"                        = "Save";
+"WEB_BROWSER_ADD_FAVOURITE_SAVE_AND_CLOSE"              = "Save and close";
+
+"WEB_BROWSER_FAVOURITES_DELETE_MESSAGE"                 = "Delete this favorite?";
+"WEB_BROWSER_FAVOURITES_RENAME_MESSAGE"                 = "Rename this favorite to:";
+
+"WEB_BROWSER_FAVOURITES_MENU_TITLE"                     = "Share and sync";
+"WEB_BROWSER_FAVOURITES_MENU_TIP"                       = "Create and send a file to Marvin on another device to exchange web favorites with it.";
+"WEB_BROWSER_FAVOURITES_MENU_EXPORT"                    = "Export web favorites";
+
+// ********************************************************************************
+// JOURNAL SCREEN (JournalViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Annotations and journal
+// ********************************************************************************
+
+"JOURNAL_SEARCH_BOX_PLACEHOLDER"                        = "Type here to find entries…";
+
+// The sharing menu.
+"JOURNAL_MENU_SHARE_TITLE"                              = "Share your journal";
+"JOURNAL_MENU_SHARE_TIP"                                = "Exports entries that are currently visible (filter text is also honored). Export to EPUB will create journal and add it to your library.";
+"JOURNAL_MENU_SHARE_EPUB"                               = "Export to an EPUB";
+"JOURNAL_MENU_SHARE_PDF"                                = "Create a PDF";
+
+// The map menu.
+"JOURNAL_MENU_READING_MAP_TITLE"                        = "Reading map";
+"JOURNAL_MENU_READING_MAP"                              = "Open your reading map";
+"JOURNAL_MENU_READING_MAP_TIP"                          = "Show the 100 most recent entries having location information.";
+
+// The recent books menu.
+"JOURNAL_MENU_RECENT_BOOKS_TITLE"                       = "Add an entry to…";
+"JOURNAL_MENU_RECENT_BOOKS_TIP"                         = "These are your most recently opened books.";
+
+// The view menu.
+"JOURNAL_MENU_VIEW_TITLE"                               = "Show";
+"JOURNAL_MENU_VIEW_BY_COLOUR_TITLE"                     = "Filter by color";
+"JOURNAL_MENU_VIEW_ALL"                                 = "All entries";
+"JOURNAL_MENU_VIEW_STARRED"                             = "Starred entries";
+"JOURNAL_MENU_VIEW_PHOTOS"                              = "Entries with photos";
+"JOURNAL_MENU_VIEW_VOCABULARY"                          = "Vocabulary";
+
+// Some error messages.
+"JOURNAL_SHARE_NOTHING_TO_SHARE"                        = "There aren’t any journal entries or annotations to share.";
+"JOURNAL_NO_ENTRIES_FOR_MAP"                            = "There aren’t any visible journal entries or annotations that can be shown on your reading map.";
+"JOURNAL_NO_RECENT_BOOKS"                               = "There aren’t any recently opened books to annotate.";
+
+// Screen title.
+"JOURNAL_NO_ENTRIES"                                    = "Your journal is empty";
+"JOURNAL_1_ENTRY"                                       = "1 journal entry";
+"JOURNAL_X_ENTRIES"                                     = "%@ journal entries"; // Placeholder!
+
+// Screen title.
+"JOURNAL_NO_ENTRIES_STARRED"                            = "No starred entries";
+"JOURNAL_1_ENTRY_STARRED"                               = "1 starred entry";
+"JOURNAL_X_ENTRIES_STARRED"                             = "%@ starred entries"; // Placeholder!
+
+// Screen title.
+"JOURNAL_NO_ENTRIES_WITH_PHOTOS"                        = "No photo entries";
+"JOURNAL_1_ENTRY_WITH_PHOTOS"                           = "1 photo entry";
+"JOURNAL_X_ENTRIES_WITH_PHOTOS"                         = "%@ photo entries"; // Placeholder!
+
+// Screen title.
+"JOURNAL_NO_ENTRIES_VOCAB"                              = "Your vocabulary is empty";
+"JOURNAL_1_ENTRY_VOCAB"                                 = "1 vocabulary entry";
+"JOURNAL_X_ENTRIES_VOCAB"                               = "%@ vocabulary entries"; // Placeholder!
+
+// Screen title.
+"JOURNAL_NO_ENTRIES_COLOURED"                           = "No %@ entries"; // Placeholder e.g. "No yellow entries"!
+"JOURNAL_1_ENTRY_COLOURED"                              = "1 %@ entry"; // Placeholder e.g. "1 yellow entry"!
+"JOURNAL_X_ENTRIES_COLOURED"                            = "%@ %@ entries"; // Placeholder  e.g. "4 yellow entries"!
+
+"JOURNAL_STARRED"                                       = "Starred";    
+"JOURNAL_UNSTARRED"                                     = "Unstarred";    
+
+"JOURNAL_DELETE_MESSAGE"                                = "Really delete this entry?";    
+
+// Export EPUB messages.
+"JOURNAL_EPUB_EXPORT_EMPTY"                             = "You don’t have any visible entries that can be exported to an EPUB journal.";
+"JOURNAL_EPUB_EXPORT_SUCCESS"                           = "Your EPUB is ready and has been added to your library.";
+"JOURNAL_EPUB_EXPORT_ERROR"                             = "An error occured creating an EPUB from your journal. Make sure you have enough free space on your device.";
+"JOURNAL_EPUB_EXPORT_CONFIRM"                           = "Export all your visible entries to an EPUB journal now? This may take a while if you have lots of entries to export.";
+
+// Export PDF messages.
+"JOURNAL_PDF_EXPORT_EMPTY"                              = "You don’t have any visible entries that can be exported to a PDF journal.";
+"JOURNAL_PDF_EXPORT_ERROR"                              = "An error occured creating a PDF from your journal. Make sure you have enough free space on your device.";
+"JOURNAL_PDF_NO_SPACE"                                  = "You don't have enough free space to export a PDF journal. Marvin needs about %@ of free space to prepare it."; // Placeholder.
+"JOURNAL_PDF_EXPORT_CONFIRM"                            = "Export all your visible entries to a PDF journal now (about %@)? This may take a while if you have lots of entries to export."; // Placeholder.
+
+
+// ********************************************************************************
+// JOURNAL ENTRY EDITOR SCREEN (JournalEntryViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Annotations and journal > Add entry -or- slide to edit
+// ********************************************************************************
+
+// Shown if the user presses the close button for a modified entry.
+"ENTRY_EDITOR_SAVE_CHANGES_TITLE"                       = "This entry has been modified…";
+"ENTRY_EDITORL_SAVE_CHANGES_SAVE"                       = "Save changes";
+"ENTRY_EDITOR_SAVE_CHANGES_DISCARD"                     = "Discard changes";
+
+// Save error message.
+"ENTRY_EDITOR_SAVE_ERROR_NO_TEXT_OR_PHOTO"              = "Your journal entry or annotation is empty or doesn’t have a photo.";
+
+// Offer to import metadata (date/time + location) from photo EXIF.
+"ENTRY_EDITOR_IMPORT_PHOTO_METADATA"                    = "The photo you selected has date and location information. Would you like to update your entry to use it?";
+
+// Change date/time menu.
+"ENTRY_EDITOR_MENU_CHANGE_DATE_TIME_TITLE"              = "Entry date and time";
+"ENTRY_EDITOR_MENU_CHANGE_DATE_TIME_SET_TO_NOW"         = "Set to now";
+"ENTRY_EDITOR_MENU_CHANGE_DATE_TIME_PICK"               = "Pick a new one";
+"ENTRY_EDITOR_MENU_CHANGE_DATE_TIME_SET_TO_PHOTO"       = "Use photo’s date and time";
+
+// Change location menu.
+"ENTRY_EDITOR_MENU_LOCATION_TITLE"                      = "Entry location";
+"ENTRY_EDITOR_MENU_CHANGE_SET_TO_HERE"                  = "Use your current location";
+"ENTRY_EDITOR_MENU_CHANGE_SET_TO_PHOTO"                 = "Use photo’s location";
+
+// Camera menu.
+"ENTRY_EDITOR_MENU_CAMERA_TAKE_PHOTO"                   = "Take a photo";
+"ENTRY_EDITOR_MENU_CAMERA_PICK_FROM_ALBUMS"             = "Pick from albums";
+"ENTRY_EDITOR_MENU_CAMERA_LAST_PHOTO"                   = "Last photo taken";
+"ENTRY_EDITOR_MENU_CAMERA_REMOVE_PHOTO"                 = "Remove photo";
+
+// Geolocation error messages.
+"ENTRY_EDITOR_GEOTAG_CANNOT_DETERMINE_LOCATION"         = "Marvin couldn’t determine your current location. Please try again later.";
+"ENTRY_EDITOR_GEOTAG_ERROR_AUTO_GEOTAGGING_TITLE"       = "Automatic geotagging is turned on in settings";
+"ENTRY_EDITOR_GEOTAG_FIX_IN_SETTINGS"                   = "Fix this";
+"ENTRY_EDITOR_GEOTAG_TURN_OFF_AUTO"                     = "Turn automatic geotagging off";
+"ENTRY_EDITOR_GEOTAG_ERROR"                             = "An error occured determining your current location. Marvin probably doesn’t have location service permissions.";
+"ENTRY_EDITOR_GEOTAG_CONNECTION_ERROR"                  = "An error occured determining your current location. Are you connected to the internet?";
+
+// ********************************************************************************
+// FULL SCREEN ENTRY SCREEN (FullScreenEntryViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Annotations and journal > Tap on an entry
+// ********************************************************************************
+
+// Buttons at the bottom of the full screen entry viewer.
+"FULL_SCREEN_ENTRY_SHARE_BUTTON"                        = "Share this entry…";
+"FULL_SCREEN_ENTRY_DICTIONARY_BUTTON"                   = "Define in dictionary…";
+
+// Go to next/previous entry info labels when pulling up or down.
+"FULL_SCREEN_ENTRY_RELEASE_FOR_NEXT"                    = "Release for next entry";
+"FULL_SCREEN_ENTRY_RELEASE_FOR_PREVIOUS"                = "Release for previous entry";
+
+// ********************************************************************************
+// MAP SCREEN (MapViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Reading map
+// ********************************************************************************
+
+"MAP_SCREEN_TITLE"                                      = "Your reading map";
+
+"MAP_MENU_ZOOM_AND_FIT_TITLE"                           = "Zoom and fit";
+"MAP_MENU_ZOOM_AND_FIT_TIP"                             = "Zoom the map to your current location, or to fit all the visible entries to the screen.";
+"MAP_MENU_ZOOM_AND_FIT_CURRENT_LOCATION"                = "Go to current location";
+"MAP_MENU_ZOOM_AND_FIT_FIT_ENTRIES"                     = "Fit entries";
+
+"MAP_MENU_MAP_TYPE_TITLE"                               = "Map type";
+"MAP_MENU_MAP_TYPE_STANDARD"                            = "Standard";
+"MAP_MENU_MAP_TYPE_SATELLITE"                           = "Satellite";
+"MAP_MENU_MAP_TYPE_HYBRID"                              = "Hybrid";
+
+// Error and info messages.
+"MAP_SHOWING_LATEST"                                    = "Showing latest %lu entries"; // Placeholder!
+"MAP_LOCATION_ERROR"                                    = "Could not determine your location.";
+"MAP_CURRENT_LOCATION"                                  = "Current location";
+"MAP_LOCATION_NO_PERMISSION"                            = "Marvin doesn’t have permissions to determine your location.";
+"MAP_FIX_THIS"                                          = "Fix this";
+
+// ********************************************************************************
+// PHOTOS SCREEN (PhotosViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Photos
+// ********************************************************************************
+
+// Photos screen main menu items.
+"PHOTOS_MENU_VIEW_TITLE"                                = "Viewing options";
+"PHOTOS_MENU_VIEW_TIP"                                  = "Shows or hides date and location information when available.\n\nTip: Long pressing a photo shows more options.";
+"PHOTOS_MENU_TOGGLE_OVERLAY_TEXT"                       = "Toggle overlay text";
+
+// Long press a photo menu.
+"PHOTOS_MENU_SHARE_TITLE"                               = "Share";
+"PHOTOS_MENU_SHARE_TIP"                                 = "Share this photo, save to your camera roll, and other actions.";
+"PHOTOS_MENU_SHARE"                                     = "Share this photo";
+
+"PHOTOS_MENU_ENTRY_TITLE"                               = "Journal entry";
+"PHOTOS_MENU_ENTRY_VIEW"                                = "View this journal entry";
+
+// ********************************************************************************
+// TAG SELECTOR SCREEN (TagSelectorViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Tags
+// ********************************************************************************
+
+"TAG_SELECTOR_FILTER_PLACEHOLDER"                       = "Type here to find tags…";
+
+// Screen title.
+"TAG_SELECTOR_NO_TAGS"                                  = "No tags";
+"TAG_SELECTOR_1_TAG"                                    = "1 tag";
+"TAG_SELECTOR_X_TAGS"                                   = "%@ tags"; // Placeholder!
+
+// Sort menu.
+"TAG_SELECTOR_MENU_SORT_TITLE"                          = "Sort tags by";
+"TAG_SELECTOR_MENU_SORT_BY_NAME"                        = "Name";
+"TAG_SELECTOR_MENU_SORT_BY_DATE"                        = "Recently used";
+"TAG_SELECTOR_MENU_SORT_BY_COUNT"                       = "Frequently used";
+
+// Tools menu.
+"TAG_SELECTOR_MENU_TOOLS_TITLE"                         = "Tools";
+"TAG_SELECTOR_MENU_TOOLS_TIP"                           = "Renaming a tag will update its name for all the journal entries and annotations that use it. Book title, author, and location auto-tags cannot be renamed.";
+"TAG_SELECTOR_MENU_TOOLS_RENAME"                        = "Rename a tag";
+
+// Auto tags menu.
+"TAG_SELECTOR_MENU_AUTO_TAGS_TITLE"                     = "Auto-tags";
+"TAG_SELECTOR_MENU_AUTO_TAGS_TIP"                       = "Toggle book title, author, and location auto-tags.";
+"TAG_SELECTOR_MENU_AUTO_TAGS_SHOW"                      = "Show auto-tags";
+"TAG_SELECTOR_MENU_AUTO_TAGS_HIDE"                      = "Hide auto-tags";
+
+// Rename tag messages and errors.
+"TAG_SELECTOR_SELECT_TAG_TO_RENAME"                     = "Select the tag you want to rename.";
+"TAG_SELECTOR_SELECT_TAG_INVALID"                       = "‘%@’ is an auto-tag and cannot be renamed. Select a user-tag to rename or cancel."; // Placeholder!
+"TAG_SELECTOR_SELECT_TAG_RENAME_CONFIRM_1"              = "Rename ‘%@’ to:"; // Placeholder!
+"TAG_SELECTOR_SELECT_TAG_RENAME_CONFIRM_2"              = "Really rename ‘%@’ to ‘%@’? This operation cannot be undone."; // Placeholder!
+
+// ********************************************************************************
+// TAG PICKER SCREEN (TagPickerViewController)
+// ********************************************************************************
+// Access from: Home > Main menu > Annotations and journal > Edit or create entry > Tags
+// ********************************************************************************
+
+"TAG_PICKER_ADD_TAG_PLACEHOLDER"                        = "Type here to create tags…";
+
+"TAG_PICKER_NO_TAGS"                                    = "No tags";
+"TAG_PICKER_1_TAG"                                      = "1 tag";
+"TAG_PICKER_X_TAGS"                                     = "%@ tags"; // Placeholder!
+
+"TAG_PICKER_MENU_SORT_TITLE"                            = "Sort tags by";
+"TAG_PICKER_MENU_SORT_BY_NAME"                          = "Name";
+"TAG_PICKER_MENU_SORT_BY_DATE"                          = "Recently used";
+"TAG_PICKER_MENU_SORT_BY_COUNT"                         = "Frequently used";
+
+// ********************************************************************************
+// EPUB BOOK SCREEN (epubBookViewController)
+// ********************************************************************************
+// !!!
+// These are the in-book strings specific to EPUB books.
+// !!!
+// ********************************************************************************
+
+"EPUB_BOOK_CONTENTS_BUTTON"                                 = "Contents";
+
+"EPUB_BOOK_OPEN_ERROR"                                      = "This book couldn't be opened because it is damaged or encrypted.";
+
+"EPUB_BOOK_MAIN_MENU_TOOLS_TITLE"                           = "Tools";
+"EPUB_BOOK_MAIN_MENU_TOOLS_BOOKMARK"                        = "Add a bookmark";
+"EPUB_BOOK_MAIN_MENU_TOOLS_SEARCH"                          = "Search";
+"EPUB_BOOK_MAIN_MENU_TOOLS_TEXT_TO_SPEECH"                  = "Text-to-speech";
+"EPUB_BOOK_MAIN_MENU_TOOLS_KARAOKE"                         = "Karaoke";
+"EPUB_BOOK_MAIN_MENU_TOOLS_TIMER"                           = "Set a timer";
+"EPUB_BOOK_MAIN_MENU_TOOLS_SCREENSHOT"                      = "Screenshot current page";
+"EPUB_BOOK_MAIN_MENU_TOOLS_DEEP_VIEW"                       = "Deep View";
+
+"EPUB_BOOK_MAIN_MENU_SETTINGS_TITLE"                        = "Settings";
+"EPUB_BOOK_MAIN_MENU_SETTINGS_ADVANCED_EPUB"                = "Advanced EPUB settings";
+"EPUB_BOOK_MAIN_MENU_SETTINGS_TIP"                          = "Changing Marvin’s color scheme affects Marvin’s UI colors. To change the color of the page and text, use the AA menu in the toolbar.";
+
+"EPUB_BOOK_MAIN_MENU_JOURNAL_TITLE"                         = "Journal and annotations";
+"EPUB_BOOK_MAIN_MENU_JOURNAL_SHOW"                          = "Show journal and annotations";
+"EPUB_BOOK_MAIN_MENU_JOURNAL_ADD_ENTRY"                     = "Add an entry";
+"EPUB_BOOK_MAIN_MENU_JOURNAL_TIP"                           = "Any selected text is automatically pasted in new entries.";
+
+"EPUB_BOOK_MAIN_MENU_WEB_LOOK_UP_TITLE"                     = "Look up";
+
+"EPUB_BOOK_OVERRIDE_DEEP_VIEW_LANGUAGE_CONFIRM"             = "Deep View works for books written in English and this one doesn’t seem to be. Try anyway?";
+
+"EPUB_BOOK_EDIT_MENU_CUSTOM_BUTTON"                         = "Custom";
+
+"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_HEADER"                = "Custom text commands";
+"EPUB_BOOK_CUSTOM_TEXT_COMMANDS_MENU_TIP"                   = "You can edit and reorder custom text menu commands from the EPUB settings screen.";
+
+"EPUB_BOOK_TEXT_SHOT_CREDIT"                                = "via marvinapp.com";
+"EPUB_BOOK_SCREEN_SHOT_CREDIT"                              = "via marvinapp.com";
+
+"EPUB_BOOK_READING_TIMER_ELAPSED_TITLE"                     = "Reading timer";
+"EPUB_BOOK_READING_TIMER_ELAPSED_MESSAGE"                   = "Reminder. It is %@"; // %@ current time.
+
+"EPUB_BOOK_BEGINNING_OF_BOOK_ACTIONS"                       = "Beginning of book actions";
+"EPUB_BOOK_END_OF_BOOK_ACTIONS"                             = "End of book actions";
+
+"EPUB_BOOK_HELP_SCREEN_TITLE"                               = "In-book help";
+
+"EPUB_BOOK_CUSTOM_COMMAND_COPY_DETAIL_FORMAT"               = "\"%@\"\n\n%.0f%% in '%@' by %@"; // First %@ = copied text, Second %0.f = percentage in book, Third %@ = book title, Fourth %@ = author.
+
+"EPUB_BOOK_PROGRESS_UNNAMED_CHAPTER"                        = "This section";
+"EPUB_BOOK_PROGRESS_PERCENT_CHAPTER"                        = "%.0f%% in %@"; // %.0f = percentage progress in current chapter, %@ chapter name.
+"EPUB_BOOK_PROGRESS_PERCENT_CHAPTER_WITH_AUTO_SCROLL"       = "%.0f%% in %@, %@ left"; // %.0f = percentage progress in current chapter, %@ = chapter name, %@ = time left to complete when auto scrolling.
+"EPUB_BOOK_PROGRESS_ABSOLUTE_CHAPTER"                       = "Page %lu of %lu in %@"; // %lu = page in chapter, %lu = total pages in chapter, %@ chapter name.
+"EPUB_BOOK_PROGRESS_OVERALL"                                = "%.0f%% overall"; // %.0f = percentage progress in overall.
+
+"EPUB_BOOK_FOOTER_1_PAGE_LEFT_IN_CHAPTER"                   = "Last page in %@"; // %@ = chapter name.
+"EPUB_BOOK_FOOTER_X_PAGES_LEFT_IN_CHAPTER"                  = "%lu pages left in %@"; // %lu = pages left, %@ = chapter name.
+"EPUB_BOOK_FOOTER_PAGES_LEFT_AND_TOTAL"                     = "%lu - %lu"; // %lu = pages left, %@ = total pages.
+"EPUB_BOOK_FOOTER_PAGES_READ_AND_TOTAL"                     = "%lu of %lu"; // %lu = pages read, %@ = total pages.
+
+// Everything show pages read, total, left and percentage for chapter FOLLOWED by the same for whole book.
+// example: 3 of 5, 2 left, 67% - 45 of 546, 324 left, 33%
+"EPUB_BOOK_FOOTER_EVERYTHING"                               = "%lu of %lu, %lu left, %.0f%% - %lu of %lu, %lu left, %.0f%%"; // %lu = pages read in chapter, %lu = total pages in chapter, %lu = pages left in chapter, %lu = percent in chapter, %lu = pages read in book, %lu = total pages in book, %lu = pages left in book, %lu = percent in book.
+"EPUB_BOOK_FOOTER_NOT_AVAILABLE"                            = "(not available)";
+"EPUB_BOOK_FOOTER_CALCULATING"                              = "(calculating…)";
+
+"EPUB_BOOK_SCRUBBER_HUD_TITLE_FOR_SECTION_MODE"             = "Within this section";
+"EPUB_BOOK_SCRUBBER_HUD_TITLE_FOR_CONTENTS_MODE"            = "Jump to";
+"EPUB_BOOK_SCRUBBER_HUD_TITLE_FOR_CONTENTS_MODE_CURRENT"    = "Currently in";
+"EPUB_BOOK_SCRUBBER_HUD_PAGE_NUMBER"                        = "Page %lu"; // %lu = page number.
+"EPUB_BOOK_SCRUBBER_HUD_TIP"                                = "Drag your finger up while scrubbing to increase precision.";
+
+"EPUB_BOOK_IMAGE_MENU_TOOLS_TITLE"                          = "Image or photo";
+"EPUB_BOOK_IMAGE_MENU_TOOLS_VIEWER"                         = "Image viewer";
+"EPUB_BOOK_IMAGE_MENU_TOOLS_SHARE_OR_SEND"                  = "Share or send this image";
+"EPUB_BOOK_IMAGE_MENU_UTILITIES_TITLE"                      = "Utilities";
+"EPUB_BOOK_IMAGE_MENU_UTILITIES_TOGGLE_TOOLBARS"            = "Toggle toolbars";
+"EPUB_BOOK_IMAGE_MENU_UTILITIES_CLOSE_BOOK"                 = "Close book";
+
+"EPUB_BOOK_SECTION_SCRUBBING_TOGGLE_MESSAGE"                = "Scrub within section";
+"EPUB_BOOK_CONTENTS_SCRUBBING_TOGGLE_MESSAGE"               = "Scrub book contents";
+
+"EPUB_BOOK_NO_DEEP_VIEW_NAMES_MATCH_TEXT"                   = "Deep View didn’t detect any names that match ‘%@’."; // %@ = the search text.
+"EPUB_BOOK_NO_DEEP_VIEW_FOR_SUMMARIES"                      = "This book is a summary created with Marvin. Deep View is not supported for these books.";
+
+"EPUB_BOOK_SHOW_READING_SESSION_TIME_MESSAGE_TITLE"         = "Reading time";
+"EPUB_BOOK_SHOW_READING_SESSION_TIME_MESSAGE"               = "You’ve been reading for about %@. You’ve spent about %@ in total reading this book.";
+
+"EPUB_BOOK_SPEECH_STOP_BUTTON"                              = "Stop";
+
+"EPUB_BOOK_HIGHLIGHT_EXISTING_TITLE"                        = "Existing highlights";
+"EPUB_BOOK_HIGHLIGHT_EXISTING_MESSAGE"                      = "Your selection overlaps with existing highlights. What would you like to do?";
+"EPUB_BOOK_HIGHLIGHT_EXISTING_REPLACE"                      = "Merge and replace";
+"EPUB_BOOK_HIGHLIGHT_EXISTING_DELETE"                       = "Delete existing";
+
+// ********************************************************************************
+// TEXT TO SPEECH START SCREEN (TTSStartViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"TTS_START_SCREEN_START_SPEAKING"                       = "Start speaking";
+
+// ********************************************************************************
+// DEEP VIEW ANALYSIS SCREEN (DeepViewAnalysisViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"DEEP_VIEW_ANALYSIS_MESSAGE"                            = "Deep View analyzes your book to find names, events, create summaries, and look up other interesting information.\n\nAnalysis usually takes less than a minute and works for books written in English."; // Note the new lines.
+"DEEP_VIEW_ANALYSIS_NOT_ENGLISH"                        = "This book doesn’t seem to be in English. Currently, Deep View works for books written in English.";
+
+// ********************************************************************************
+// DEEP VIEW SCREEN (DeepViewViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"DEEP_VIEW_START_SUMMARY_BUTTON"                        = "Create a summary…";
+"DEEP_VIEW_END_SUMMARY_BUTTON"                          = "Tap here when done";
+
+"DEEP_VIEW_SELECT_NAMES_FOR_SUMMARY"                    = "Select names";
+
+"DEEP_VIEW_SEARCH_BOX_PLACEHOLDER"                      = "Find names…";
+
+"DEEP_VIEW_0_ITEMS"                                     = "No Deep View names";
+"DEEP_VIEW_1_ITEM"                                      = "1 Deep View name";
+"DEEP_VIEW_X_ITEMS"                                     = "%lu Deep View names"; // %lu = count;
+
+"DEEP_VIEW_SUBTITLE_ALL_BOOK"                           = "(in all book)";
+"DEEP_VIEW_SUBTITLE_CURRENT_CHAPTER"                    = "(in current chapter)";
+
+"DEEP_VIEW_MENU_SHOW_TITLE"                             = "Show";
+"DEEP_VIEW_MENU_SHOW_ALL_IN_BOOK"                       = "All names in book";
+"DEEP_VIEW_MENU_SHOW_ALL_IN_CHAPTER"                    = "Names in the current chapter";
+
+"DEEP_VIEW_MENU_SORT_TITLE"                             = "Sort by";
+"DEEP_VIEW_MENU_SORT_FREQUENCY"                         = "Frequency";
+"DEEP_VIEW_MENU_SORT_APPEARANCE"                        = "Order of appearance";
+"DEEP_VIEW_MENU_SORT_ALPHABETICALLY"                    = "Alphabetically";
+"DEEP_VIEW_MENU_SORT_STARS_AND_NOTES"                   = "Stars and notes on top";
+
+"DEEP_VIEW_MENU_UTILTIES_TITLE"                         = "Utilities";
+"DEEP_VIEW_MENU_UTILITIES_RESET"                        = "Reset Deep View";
+"DEEP_VIEW_MENU_UTILITIES_EXPORT_PDF"                   = "Export visible names to a PDF";
+"DEEP_VIEW_MENU_UTILTIES_TIP"                           = "Resetting Deep View for this book will delete any notes or stars you attached to names. Your other annotations are NOT deleted.";
+
+"DEEP_VIEW_INFO_LINE_APPEAR_1_TIME"                     = "1 time, first time in %@"; // %@ = chapter name.
+"DEEP_VIEW_INFO_LINE_APPEAR_X_TIMES"                    = "%lu times, first time in %@"; // %lu = number of appearances, %@ = chapter name.
+
+"DEEP_VIEW_NAME_STARRED"                                = "Starred";
+"DEEP_VIEW_NAME_UNSTARRED"                              = "Unstarred";
+
+"DEEP_VIEW_RESET_CONFIRM"                               = "Deep View will be reset for this book only. Any starred or annotated names will be lost. This will NOT delete your journal entries or other annotations. Continue?";
+
+"DEEP_VIEW_NO_NAMES_IN_CHAPTER_WARNING"                 = "There are no names in the current chapter. Use the main menu to change viewing and sorting modes.";
+
+"DEEP_VIEW_PDF_EXPORT_EMPTY"                            = "There are no Deep View items visible to export to a PDF.";
+"DEEP_VIEW_PDF_EXPORT_CONFIRM"                          = "Export all visible names in the current sort order now?";
+"DEEP_VIEW_PDF_EXPORT_ERROR"                            = "An error occurred exporting your Deep View items to a PDF.";
+
+"DEEP_VIEW_SUMMARY_CREATED"                             = "Your summary is ready and has been added to your library.";
+"DEEP_VIEW_SUMMARY_ERROR"                               = "An error occurred creating your summary.";
+
+// ********************************************************************************
+// DEEP VIEW FIRST OCCURRENCE MENU (FirstOccurrenceViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"FIRST_OCCURRENCE_TITLE"                                = "1st occurrences of %@"; // %@ character name.
+"FIRST_OCCURRENCE_SHARE_BUTTON"                         = "Share";
+"FIRST_OCCURRENCE_WEB_SEARCH_BUTTON"                    = "Web search";
+
+// ********************************************************************************
+// SUMMARY BUILDER MENU SCREEN (iCloudSyncMenuViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"SUMMARY_BUILDER_MESSAGE"                               = "Marvin will create a summary for the following names: %@.\n\nChoose the size of the summary you want to create."; // %@ = name list, careful about new lines.
+"SUMMARY_BUILDER_NORMAL_SIZE_BUTTON"                    = "Normal";
+"SUMMARY_BUILDER_SHORT_SIZE_BUTTON"                     = "Short";
+"SUMMARY_BUILDER_LONG_SIZE_BUTTON"                      = "Long";
+
+"SUMMARY_BUILDER_IMPORT_CONFIRM"                        = "Your summary is %.0f%% the size of the original book. Import it in your library now?"; // %.0f = percentage size of summary.
+
+// ********************************************************************************
+// ICLOUD SYNC MENU SCREEN (iCloudSyncMenuViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"ICLOUD_SYNC_MENU_TITLE"                                = "Locations saved in iCloud";
+"ICLOUD_SYNC_MENU_TIP"                                  = "Listed by farthest first. The location saved from this device is colored.";
+"ICLOUD_SYNC_MENU_FETCH_ERROR"                          = "An error occured fetching sync locations from iCloud: %@"; // %@ = error.
+"ICLOUD_SYNC_MENU_PROGRESS"                             = "%.0f%% - %@"; // %.0f = progress, %@ = device name.
+"ICLOUD_SYNC_MENU_DATE"                                 = "Saved on %@"; // %@ = date.
+
+// ********************************************************************************
+// EPUB VERTICAL SCROLLING BOOK SCREEN (epubScrollingViewController)
+// ********************************************************************************
+
+"EPUB_SCROLLING_VIEW_PULL_FOR"                          = "Release for %@"; // Chapter name.
+
+// ********************************************************************************
+// EPUB LAYOUT SUB MENU (epubLayoutMenuViewController)
+// ********************************************************************************
+
+"EPUB_LAYOUT_MENU_PER_BOOK_HEADER"                      = "For this book";
+"EPUB_LAYOUT_MENU_GLOBAL_HEADER"                        = "Global";
+"EPUB_LAYOUT_MENU_TEXT_SIZE"                            = "Text size";
+"EPUB_LAYOUT_MENU_MARGIN_SIZE"                          = "Margin size";
+"EPUB_LAYOUT_MENU_LINE_SPACING"                         = "Line spacing";
+"EPUB_LAYOUT_MENU_PARAGRAPH_SPACING"                    = "Paragraph spacing";
+"EPUB_LAYOUT_MENU_INDENTATION"                          = "Indentation";
+"EPUB_LAYOUT_MENU_HYPHENATION"                          = "Hyphenate text";
+"EPUB_LAYOUT_MENU_JUSTIFICATION"                        = "Justify text";
+"EPUB_LAYOUT_MENU_UNIFORM_TEXT_SIZE"                    = "Uniform text size";
+"EPUB_LAYOUT_MENU_UNIFORM_TEXT_SIZE_CONFIRM"            = "Uniform text size makes all the text in the book have the same size. This is useful if you’re having trouble with small text but is NOT recommended otherwise. Continue?";
+"EPUB_LAYOUT_MENU_PUBLISHERS_LAYOUT"                    = "Publisher’s layout";
+"EPUB_LAYOUT_MENU_PUBLISHERS_LAYOUT_CONFIRM"            = "Many formatting options including fonts and colors are not available in publisher’s layout. Continue?";
+"EPUB_LAYOUT_MENU_RESET"                                = "Reset layout settings";
+"EPUB_LAYOUT_MENU_RESET_CONFIRM"                        = "This will reset all the layout settings in this page to defaults. Continue?";
+"EPUB_LAYOUT_MENU_SLIDE_TO_RESET"                       = "You can slide labels with ± buttons to set default.";
+
+// ********************************************************************************
+// EPUB PAGINATION SUB MENU (epubPaginationMenuViewController)
+// ********************************************************************************
+
+"EPUB_PAGINATION_MENU_ORIENTATION_HEADER"               = "Orientation";
+"EPUB_PAGINATION_MENU_ORIENTATION_ROTATE"               = "Allow device rotation";
+"EPUB_PAGINATION_MENU_ORIENTATION_PORTRAIT"             = "Lock portrait";
+"EPUB_PAGINATION_MENU_ORIENTATION_LANDSCAPE"            = "Lock landscape";
+"EPUB_PAGINATION_MENU_ORIENTATION_TIP"                  = "In-app orientation lock is not supported on devices with Split View functionality (e.g. newer iPads). On supported devices, you may need to rotate your device for orientation settings to take effect.";
+
+"EPUB_PAGINATION_MENU_PAGE_LAYOUT_HEADER"               = "Page layout";
+"EPUB_PAGINATION_MENU_PAGE_LAYOUT_PAGINATION"           = "Paginate";
+"EPUB_PAGINATION_MENU_PAGE_LAYOUT_VERTICAL_SCROLL"      = "Vertical scroll";
+
+"EPUB_PAGINATION_MENU_COLUMNS_HEADER"                   = "Multiple columns";
+"EPUB_PAGINATION_MENU_COLUMNS_IN_PORTRAIT"              = "In portrait: %lu"; // %lu = number of columns.
+"EPUB_PAGINATION_MENU_COLUMNS_IN_LANDSCAPE"             = "In landscape: %lu"; // %lu = number of columns.
+"EPUB_PAGINATION_MENU_COLUMNS_TIP"                      = "Multiple columns apply to pagination mode only. Marvin may override your column settings if your device is too small to fit them.";
+
+// ********************************************************************************
+// EPUB AUTO SCROLL SUB MENU (epubAutoScrollMenuViewController)
+// ********************************************************************************
+
+"EPUB_AUTO_SCROLL_MENU_ENABLE_HEADER"                   = "Auto scrolling";
+"EPUB_AUTO_SCROLL_MENU_ENABLE"                          = "Enable auto-scroll";
+"EPUB_AUTO_SCROLL_MENU_SPEED"                           = "Speed";
+"EPUB_AUTO_SCROLL_MENU_SPEED_VALUE"                     = "Speed: %.0f"; // %.0f == Percent speed.
+
+"EPUB_AUTO_SCROLL_SCRUB_TIP"                            = "Slide your finger down while scrubbing to adjust precision.\n\nAuto scrolling is automatically paused when you perform certain actions - to resume, slighly nudge the page up or down when the toolbars are hidden.";
+
+"EPUB_AUTO_SCROLL_WRONG_VIEWING_MODE"                   = "Auto-scrolling only works in vertical scrolling mode. Go to page settings and switch to vertical scrolling mode first.";
+"EPUB_AUTO_SCROLL_SWITCH_TO_PAGE_SETTINGS"              = "Go to page settings";
+
+// ********************************************************************************
+// EPUB COLOURS SUB MENU (epubColourMenuViewController)
+// ********************************************************************************
+
+"EPUB_COLOUR_MENU_HEADER"                               = "Color presets";
+"EPUB_COLOUR_MENU_PRESET_1_DEFAULT"                     = "Day";
+"EPUB_COLOUR_MENU_PRESET_2_DEFAULT"                     = "Night";
+"EPUB_COLOUR_MENU_PRESET_3_DEFAULT"                     = "Paper";
+"EPUB_COLOUR_MENU_PRESET_4_DEFAULT"                     = "Dusk";
+"EPUB_COLOUR_MENU_PRESET_5_DEFAULT"                     = "Dawn";
+
+"EPUB_COLOUR_MENU_RESET"                                = "Reset all color presets";
+"EPUB_COLOUR_MENU_RESET_TIP"                            = "To reset an individual preset, slide its label to the left.";
+"EPUB_COLOUR_MENU_RESET_CONFIRM"                        = "Reset the colors of all presets to defaults?";
+
+"EPUB_COLOUR_MENU_PRESET_UNTITLED"                      = "(untitled)";
+
+"EPUB_COLOUR_MENU_FOREGROUND"                           = "Text"; // Keep short.
+"EPUB_COLOUR_MENU_BACKGROUND"                           = "Paper"; // Keep short.
+"EPUB_COLOUR_MENU_LINK"                                 = "Links"; // Keep short.
+
+"EPUB_COLOUR_MENU_IN_PUBLISHERS_MODE"                   = "You cannot change colors and textures in publisher’s layout mode. Turn off publisher’s layout first.";
+"EPUB_COLOUR_MENU_IN_SWITCH_TO_LAYOUT_SETTINGS"         = "Go to layout settings";
+
+// ********************************************************************************
+// EPUB FONTS SUB MENU (epubFontsMenuViewController)
+// ********************************************************************************
+
+"EPUB_FONTS_MENU_APP_FONTS_HEADER"                      = "App fonts";
+"EPUB_FONTS_MENU_SYSTEM_FONTS_HEADER"                   = "System fonts";
+"EPUB_FONTS_MENU_CUSTOM_FONTS_HEADER"                   = "Custom fonts";
+"EPUB_FONTS_MENU_CUSTOM_FONT_LOAD_ERROR"                = "Error!!! %@"; // %@ = Font name.
+
+"EPUB_FONTS_MENU_IN_PUBLISHERS_MODE"                    = "You cannot change fonts in publisher’s layout mode. Turn off publisher’s layout first.";
+"EPUB_FONTS_MENU_IN_SWITCH_TO_LAYOUT_SETTINGS"          = "Go to layout settings";
+
+// ********************************************************************************
+// EPUB WARMTH SUB MENU (epubWarmthMenuViewController)
+// ********************************************************************************
+
+"EPUB_WARMTH_MENU_BRIGHTNESS_HEADER"                    = "Brightness";
+"EPUB_WARMTH_MENU_EXTRA_DIMMING"                        = "Extra dimming";
+"EPUB_WARMTH_MENU_WARMTH_HEADER"                        = "Screen warmth";
+"EPUB_WARMTH_MENU_WARMTH_OFF"                           = "Off/Disable";
+"EPUB_WARMTH_MENU_WARMTH_SLIGHTLY"                      = "Slightly";
+"EPUB_WARMTH_MENU_WARMTH_NORMAL"                        = "Normal";
+"EPUB_WARMTH_MENU_WARMTH_HOT"                           = "Hot";
+"EPUB_WARMTH_MENU_WARMTH_TIP"                           = "Warmth reduces screen harshness for more comfortable nighttime reading. Marvin will remember your extra dimming and warmth setting for this preset.";
+
+// ********************************************************************************
+// READING TIMER MENU (ReadingTimerViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"READING_TIMER_HEADER"                                  = "Set a reading timer to";
+"READING_TIMER_OFF"                                     = "Off/Disable";
+"READING_TIMER_IS_OFF"                                  = "Your reading timer is off. Select a timer from the list.";
+"READING_TIMER_FIRE_TIME_LESS_THAN_MINUTE"              = "Your reading timer will fire in less than a minute."; // %@ remaining time.
+"READING_TIMER_FIRE_TIME"                               = "Your reading timer will fire in about %@."; // %@ remaining time.
+
+// ********************************************************************************
+// MULTI COLOUR BOOKMARK MENU (MultiBookmarkViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"MULTI_BOOKMARK_MENU_HEADER"                            = "Choose a bookmark color";
+
+// ********************************************************************************
+// EPUB BOOK SEARCH MENU MENU (epubBookSearchMenuViewController)
+// ********************************************************************************
+
+"EPUB_BOOK_SEARCH_MENU_CLEAR_RESULTS"                   = "Clear current search results";
+"EPUB_BOOK_SEARCH_MENU_SEARCH_PLACEHOLDER"              = "Enter text to search for";
+"EPUB_BOOK_SEARCH_MENU_EXPORT_TITLE"                    = "Export search results";
+"EPUB_BOOK_SEARCH_MENU_EXPORT_HTML"                     = "Export to HTML";
+"EPUB_BOOK_SEARCH_MENU_EXPORT_PDF"                      = "Export to PDF";
+
+"EPUB_BOOK_SEARCH_MENU_RESULTS_1_HIT"                   = "%@ (1 hit)"; // %@ chapter name.
+"EPUB_BOOK_SEARCH_MENU_RESULTS_X_HITS"                  = "%@ (%lu hits)"; // %@ chapter name, %lu number of hits.
+
+"EPUB_BOOK_SEARCH_MENU_PDF_EXPORT_ERROR"                = "An error occured exporting your search results to a PDF. Make sure you have enough free space on your device.";
+
+// ********************************************************************************
+// EPUB BOOK CONTENTS SCREEN (epubBookContentsViewController)
+// ********************************************************************************
+
+"EPUB_BOOK_CONTENTS_SECTION_CONTENTS"                   = "Contents"; // Keep as short as possible.
+"EPUB_BOOK_CONTENTS_SECTION_BOOKMARKS"                  = "Bookmarks"; // Keep as short as possible.
+"EPUB_BOOK_CONTENTS_SECTION_ANNOTATIONS"                = "Annotations"; // Keep as short as possible.
+"EPUB_BOOK_CONTENTS_SECTION_IMAGES"                     = "Images"; // Keep as short as possible.
+
+"EPUB_BOOK_CONTENTS_TITLE_0_CONTENT_ITEMS"              = "Table of contents is empty";
+"EPUB_BOOK_CONTENTS_TITLE_1_CONTENT_ITEM"               = "1 item";
+"EPUB_BOOK_CONTENTS_TITLE_X_CONTENT_ITEMS"              = "%lu items"; // %lu number of ToC items.
+
+"EPUB_BOOK_CONTENTS_TITLE_0_SECTION_ITEMS"              = "No sections";
+"EPUB_BOOK_CONTENTS_TITLE_1_SECTION_ITEM"               = "1 section item";
+"EPUB_BOOK_CONTENTS_TITLE_X_SECTION_ITEMS"              = "%lu section items"; // %lu number of ToC items.
+
+"EPUB_BOOK_CONTENTS_TITLE_0_BOOKMARKS"                  = "No bookmarks";
+"EPUB_BOOK_CONTENTS_TITLE_1_BOOKMARK"                   = "1 bookmark";
+"EPUB_BOOK_CONTENTS_TITLE_X_BOOKMARKS"                  = "%lu bookmarks"; // %lu number bookmarks.
+
+"EPUB_BOOK_CONTENTS_TITLE_0_ANNOTATIONS"                = "No annotations";
+"EPUB_BOOK_CONTENTS_TITLE_1_ANNOTATIONS"                = "1 annotation";
+"EPUB_BOOK_CONTENTS_TITLE_X_ANNOTATIONS"                = "%lu annotations"; // %lu number annotations.
+
+"EPUB_BOOK_CONTENTS_TITLE_0_IMAGES"                     = "No images in book";
+"EPUB_BOOK_CONTENTS_TITLE_1_IMAGE"                      = "1 image in book";
+"EPUB_BOOK_CONTENTS_TITLE_X_IMAGES"                     = "%lu images in book"; // %lu number bookmarks.
+
+"EPUB_BOOK_CONTENTS_PROGRESS_AND_CHAPTER_NAME"          = "%.0f%% in %@"; // %.0f = progress, %@ = chapter name.
+
+"EPUB_BOOK_CONTENTS_CONTENTS_MENU_VIEW_HEADER"          = "Viewing mode";
+"EPUB_BOOK_CONTENTS_CONTENTS_MENU_VIEW_TOC"             = "Table of contents";
+"EPUB_BOOK_CONTENTS_CONTENTS_MENU_VIEW_SECTION_LIST"    = "Section list";
+"EPUB_BOOK_CONTENTS_CONTENTS_MENU_VIEW_TIP"             = "Section list mode may be useful if the book has an incomplete or missing table of contents.";
+
+"EPUB_BOOK_CONTENTS_IMAGES_MENU_VIEW_HEADER"            = "Images and photos";
+"EPUB_BOOK_CONTENTS_IMAGES_MENU_VIEW_EXPORT"            = "Export all to zip file";
+
+"EPUB_BOOK_CONTENTS_BOOKMARK_UPDATED"                   = "Last updated on %@"; // %@ updated date.
+
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_SORT_HEADER"                  = "Sort bookmarks by";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_SORT_BY_BOOK_ORDER"           = "Book order";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_SORT_BY_COLOUR"               = "Color, book order";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_SORT_BY_DATE_CREATED_TOP"     = "Date created, recent on top";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_SORT_BY_DATE_UPDATED_TOP"     = "Date updated, recent on top";
+
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_HEADER"        = "Export";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_INTERCHANGE"   = "Export Marvin → Marvin";
+"EPUB_BOOK_CONTENTS_BOOKMARK_MENU_EXPORT_TIP"           = "Exports your bookmarks to a file that can be imported by Marvin on another device.";
+
+"EPUB_BOOK_CONTENTS_BOOKMARKS_EXPORT_EMPTY"             = "You haven’t created any bookmarks to export yet.";
+"EPUB_BOOK_CONTENTS_BOOKMARKS_EXPORT_ERROR"             = "An error occured creating a bookmarks file. Make sure you have enough free space on your device.";
+
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_HEADER"               = "Sort annotations by";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_BOOK_ORDER"        = "Book order";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_COLOUR"            = "Color, book order";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_DATE_CREATED_TOP"  = "Date created, recent on top";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_SORT_BY_DATE_UPDATED_TOP"  = "Date updated, recent on top";
+
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_HEADER"     = "Export";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_INTERCHANGE"= "Export Marvin → Marvin";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_MENU_EXPORT_TIP"        = "Exports your highlights and annotations including all other journal entries and photos for this book to a file that can be imported by Marvin on another device.";
+
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_EXPORT_EMPTY"           = "You haven’t created any annotations to export yet.";
+"EPUB_BOOK_CONTENTS_ANNOTATIONS_EXPORT_ERROR"           = "An error occured creating an annotations file. Make sure you have enough free space on your device.";
+
+"EPUB_BOOK_CONTENTS_CANNOT_CHANGE_COLOUR_OF_AUTO_BOOOMARK"      = "You cannot change the colors of auto-bookmarks.";
+
+// ********************************************************************************
+// CBX BOOK SCREEN (cbxBookViewController)
+// ********************************************************************************
+
+"CBX_BOOK_CONTENTS_BUTTON"                              = "Thumbnails";
+
+"CBX_BOOK_OPEN_ERROR"                                   = "This book couldn't be opened because it is damaged.";
+
+"CBX_BOOK_READING_TIMER_ELAPSED_TITLE"                  = "Reading timer";
+"CBX_BOOK_READING_TIMER_ELAPSED_MESSAGE"                = "Reminder. It is %@"; // %@ current time.
+
+"CBX_BOOK_SHOW_READING_SESSION_TIME_MESSAGE_TITLE"      = "Reading time";
+"CBX_BOOK_SHOW_READING_SESSION_TIME_MESSAGE"            = "You’ve been reading for about %@. You’ve spent about %@ in total reading this book.";
+
+"CBX_BOOK_MAIN_MENU_TOOLS_TITLE"                        = "Tools";
+"CBX_BOOK_MAIN_MENU_TOOLS_BOOKMARK"                     = "Add a bookmark";
+"CBX_BOOK_MAIN_MENU_TOOLS_TIMER"                        = "Set a timer";
+"CBX_BOOK_MAIN_MENU_TOOLS_SHARE_PAGE"                   = "Share current page";
+
+"CBX_BOOK_MAIN_MENU_SETTINGS_TITLE"                     = "Settings";
+"CBX_BOOK_MAIN_MENU_SETTINGS_ADVANCED_CBX"              = "Advanced CBx settings";
+"CBX_BOOK_MAIN_MENU_SETTINGS_TIP"                       = "Changing Marvin’s color scheme affects Marvin’s UI colors. To change the color of the matte around the page, use the AA menu in the toolbar.";
+
+"CBX_BOOK_MAIN_MENU_JOURNAL_TITLE"                      = "Journal and annotations";
+"CBX_BOOK_MAIN_MENU_JOURNAL_SHOW"                       = "Show journal and annotations";
+"CBX_BOOK_MAIN_MENU_JOURNAL_ADD_ENTRY"                  = "Add an entry";
+
+"CBX_BOOK_MAIN_MENU_WEB_LOOK_UP_TITLE"                  = "Look up";
+
+"CBX_BOOK_HELP_SCREEN_TITLE"                            = "In-book help";
+
+"CBX_BOOK_SCRUBBER_PAGE"                                = "Page %lu of %lu"; // %lu = page number, %lu = total pages.
+"CBX_BOOK_SCRUBBER_HUD_TIP"                             = "Drag your finger up while scrubbing to increase precision.";
+
+// ********************************************************************************
+// CBX THUMBNAILS SCREEN (cbxThumbnailsViewController)
+// ********************************************************************************
+
+"CBX_THUMBNAILS_TITLE"                                  = "Thumbnails";
+"CBX_THUMBNAILS_SUBTITLE"                               = "(long-press pages to peek, tap bookmarks for options)";
+
+"CBX_THUMBNAILS_BOOKMARKS_MENU_BOOKMARK_TITLE"          = "Bookmark";
+"CBX_THUMBNAILS_BOOKMARKS_MENU_BOOKMARK_COLOUR"         = "Change color";
+"CBX_THUMBNAILS_BOOKMARKS_MENU_BOOKMARK_NOTE"           = "View or edit note";
+"CBX_THUMBNAILS_BOOKMARKS_MENU_BOOKMARK_DELETE"         = "Delete";
+
+"CBX_THUMBNAILS_BOOKMARKS_MENU_ALL_BOOKMARKS_TITLE"     = "All bookmarks";
+"CBX_THUMBNAILS_BOOKMARKS_MENU_ALL_BOOKMARKS_EXPORT"    = "Export Marvin → Marvin";
+
+"CBX_THUMBNAILS_CANNOT_CHANGE_COLOUR_OF_AUTO_BOOMARK"   = "You cannot change the colors of auto-bookmarks.";
+
+"CBX_THUMBNAILS_BOOKMARK_WITH_CURRENT_PAGE_MARKER"      = "Current";
+"CBX_THUMBNAILS_BOOKMARK_WITH_NOTE_MARKER"              = "Note"; // Keep this very short (about 4 chars max).
+
+// ********************************************************************************
+// CBX LAYOUT SUB MENU (cbxLayoutMenuViewController)
+// ********************************************************************************
+
+"CBX_LAYOUT_MENU_LAYOUT_HEADER"                         = "Layout (global)";
+"CBX_LAYOUT_MENU_LAYOUT_PINCH_TO_ZOOM"                  = "Pinch to zoom";
+"CBX_LAYOUT_MENU_LAYOUT_TAP_ZIG_ZAG"                    = "Tap to zig-zag";
+"CBX_LAYOUT_MENU_LAYOUT_TIP"                            = "‘Tap to zig-zag’ works when you’re zoomed in: tap edges to zig-zag across the page. Gesture setup in advanced CBx settings is honored.";
+
+"CBX_LAYOUT_MENU_FX_HEADER"                             = "Image FX (per comic)";
+"CBX_LAYOUT_MENU_FX_TIP"                                = "Multiple effects may affect page turn speeds and use more battery power.";
+
+"CBX_LAYOUT_MENU_SHARPENING_NONE"                       = "Sharpening: off";
+"CBX_LAYOUT_MENU_SHARPENING_LOW"                        = "Sharpening: +1";
+"CBX_LAYOUT_MENU_SHARPENING_MEDIUM"                     = "Sharpening: +2";
+"CBX_LAYOUT_MENU_SHARPENING_HIGH"                       = "Sharpening: +3";
+
+"CBX_LAYOUT_MENU_CONTRAST_NONE"                         = "Contrast: off";
+"CBX_LAYOUT_MENU_CONTRAST_LOW"                          = "Contrast: +1";
+"CBX_LAYOUT_MENU_CONTRAST_MEDIUM"                       = "Contrast: +2";
+"CBX_LAYOUT_MENU_CONTRAST_HIGH"                         = "Contrast: +3";
+
+"CBX_LAYOUT_MENU_EXPOSURE_NONE"                         = "Exposure: off";
+"CBX_LAYOUT_MENU_EXPOSURE_LOW"                          = "Exposure: +1";
+"CBX_LAYOUT_MENU_EXPOSURE_MEDIUM"                       = "Exposure: +2";
+"CBX_LAYOUT_MENU_EXPOSURE_HIGH"                         = "Exposure: +3";
+
+// ********************************************************************************
+// CBX PAGINATION SUB MENU (cbxPaginationMenuViewController)
+// ********************************************************************************
+
+"CBX_PAGINATION_MENU_ORIENTATION_HEADER"                = "Orientation";
+"CBX_PAGINATION_MENU_ORIENTATION_ROTATE"                = "Allow device rotation";
+"CBX_PAGINATION_MENU_ORIENTATION_PORTRAIT"              = "Lock portrait";
+"CBX_PAGINATION_MENU_ORIENTATION_LANDSCAPE"             = "Lock landscape";
+"CBX_PAGINATION_MENU_ORIENTATION_TIP"                   = "In-app orientation lock is NOT supported on devices with Split View functionality (e.g. iPad Air 2). On supported devices, you may need to rotate your device for orientation settings to take effect.";
+
+// ********************************************************************************
+// CBx COLOURS SUB MENU (cbxColourMenuViewController)
+// ********************************************************************************
+
+"CBX_COLOUR_MENU_HEADER"                                = "Color presets";
+
+"CBX_COLOUR_MENU_PRESET_1_DEFAULT"                      = "Automatic";
+"CBX_COLOUR_MENU_PRESET_2_DEFAULT"                      = "Gray";
+"CBX_COLOUR_MENU_PRESET_3_DEFAULT"                      = "Black";
+"CBX_COLOUR_MENU_PRESET_4_DEFAULT"                      = "Paper";
+"CBX_COLOUR_MENU_PRESET_5_DEFAULT"                      = "Yellow";
+
+"CBX_COLOUR_MENU_AUTO_COLOUR"                           = "Auto-color";
+
+"CBX_COLOUR_MENU_RESET"                                 = "Reset all color presets";
+"CBX_COLOUR_MENU_RESET_TIP"                             = "To reset an individual preset, slide its label to the left.";
+"CBX_COLOUR_MENU_RESET_CONFIRM"                         = "Reset the colors of all presets to defaults?";
+
+"CBX_COLOUR_MENU_PRESET_UNTITLED"                       = "(untitled)";
+
+// ********************************************************************************
+// EPUB WARMTH SUB MENU (epubWarmthMenuViewController)
+// ********************************************************************************
+
+"CBX_WARMTH_MENU_BRIGHTNESS_HEADER"                     = "Brightness";
+"CBX_WARMTH_MENU_EXTRA_DIMMING"                         = "Extra dimming";
+"CBX_WARMTH_MENU_WARMTH_HEADER"                         = "Screen warmth";
+"CBX_WARMTH_MENU_WARMTH_OFF"                            = "Off/Disable";
+"CBX_WARMTH_MENU_WARMTH_SLIGHTLY"                       = "Slightly";
+"CBX_WARMTH_MENU_WARMTH_NORMAL"                         = "Normal";
+"CBX_WARMTH_MENU_WARMTH_HOT"                            = "Hot";
+"CBX_WARMTH_MENU_WARMTH_TIP"                            = "Warmth reduces screen harshness for more comfortable nighttime reading. Marvin will remember your extra dimming and warmth setting for this preset.";
+
+// ********************************************************************************
+// END OF BOOK SCREEN (EndOfBookActionsViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"END_OF_BOOK_TITLE"                                     = "Congratulations!";
+
+"END_OF_BOOK_BEGINNING_OF_BOOK_ACTIONS"                 = "Beginning of book actions";
+"END_OF_BOOK_END_OF_BOOK_ACTIONS"                       = "End of book actions";
+
+"END_OF_BOOK_JOURNAL_ENTRY_TITLE"                       = "Log a journal entry";
+"END_OF_BOOK_JOURNAL_ENTRY_TIP"                         = "Keep your reading journal up to date.";
+
+"END_OF_BOOK_TWEET_READING_STATUS"                      = "Tweet about this";
+"END_OF_BOOK_TWEET_READING_STATUS_TIP"                  = "Tweet about this book. You can edit the template that Marvin uses to post messages.";
+
+"END_OF_BOOK_SEND_READING_STATUS"                       = "Share your thoughts";
+"END_OF_BOOK_SEND_READING_STATUS_TIP"                   = "Share your status using iOS’ share sheet. You can edit the template that Marvin uses to post messages.";
+
+"END_OF_BOOK_TWEET_TEMPLATE_EDITOR_TITLE"               = "Tweet template";
+"END_OF_BOOK_SEND_TO_TEMPLATE_EDITOR_TITLE"             = "Sharing template";
+
+// ********************************************************************************
+// IMAGE VIEWER SCREEN (ImageViewerViewController)
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"IMAGE_VIEWER_SCREEN_TITLE"                             = "Image viewer";
+
+"IMAGE_VIEWER_MENU_TOOLS_HEADER"                        = "Image or photo";
+"IMAGE_VIEWER_MENU_TOOLS_SHARE_OR_SEND"                 = "Share or send this image";
+
+// ********************************************************************************
+// In-App Purchases
+// ********************************************************************************
+// This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
+// ********************************************************************************
+
+"IAP_UPGRADE_BANNER_PRIMARY_TEXT"                       = "Get the full version";
+"IAP_UPGRADE_BANNER_SECONDARY_TEXT"                     = "Upgrade to the full version to enable full-screen reading.";
+
+"IAP_MINIMISE_BANNER_PRIMARY_TEXT"                      = "Tap to minimise";
+"IAP_MINIMISE_BANNER_SECONDARY_TEXT"                    = "Minimise this banner and continue reading.";
+
+"IAP_MENU_MESSAGE"                                      = "Enable Marvin with full-screen reading. Any future premium-only features will also be enabled with this one-time purchase.\n\nThank you for supporting Marvin!"; // Careful about the new lines.
+"IAP_MENU_UNLOCK_BUTTON_LOADING"                        = "Loading…";
+"IAP_MENU_UNLOCK_BUTTON"                                = "Unlock for %@"; // %@ = price.
+"IAP_MENU_RESTORE_BUTTON"                               = "Restore previous purchases";
+
+"IAP_MENU_ERROR_NO_APP_STORE"                           = "Marvin cannot access the App Store. Please check your internet connection and try again.";
+"IAP_MENU_ERROR_BAD_PRODUCTS"                           = "Sorry, there was a problem accessing the App Store (%lu). Please try again."; // %lu = error code.
+
+"IAP_MENU_UNLOCK_EVERYTHING_PURCHASE_COMPLETE"          = "Thanks for supporting Marvin!";
+"IAP_MENU_PURCHASES_RESTORED"                           = "Your previous purchases have been restored. Thanks for supporting Marvin!";
+"IAP_MENU_CANNOT_FIND_UNLOCK_EVERYTHING_PURCHASE"       = "Sorry, Marvin cannot find a previous full screen upgrade purchase. Please make sure you purchased this feature using the same iTunes account you are logged in with.";
+
+"IAP_GENEROUS_TIP_BUTTON"                               = "Generous tip of %@"; // price.
+"IAP_AMAZING_TIP_BUTTON"                                = "Amazing tip of %@"; // price.
+"IAP_INCREDIBLE_TIP_BUTTON"                             = "Incredible tip of %@"; // price.
+
+"IAP_GENEROUS_TIP_PURCHASED"                            = "Thank you!";
+"IAP_AMAZING_TIP_PURCHASED"                             = "You’re amazing!";
+"IAP_INCREDIBLE_TIP_PURCHASED"                          = "You’re incredible!";
+
+"IAP_GENEROUS_TIP_ALREADY_PURCHASED"                    = "You already left a generous tip. Thank you!";
+"IAP_AMAZING_TIP_ALREADY_PURCHASED"                     = "You already left an amazing tip. Thank you!";
+"IAP_INCREDIBLE_TIP_ALREADY_PURCHASED"                  = "You already left an incredible tip. Thank you!";
+
+"IAP_TIP_PURCHASES_RESTORED"                            = "Your previous tips have been restored. Thank you!";
+"IAP_TIP_PURCHASE_COMPLETE"                             = "Thank you for your tip! Enjoy your new themes.";
+
+"IAP_RESTORING_MESSAGE"                                 = "Restoring…";
+"IAP_PURCHASING_TIP"                                    = "Tipping…";
+"IAP_PURCHASING_UNLOCK_EVERYTHING"                      = "Just a sec…";
+
+// ********************************************************************************
+// Karaoke (epubKaraokeViewController)
+// ********************************************************************************
+
+"KARAOKE_START"                                         = "Start";
+"KARAOKE_SPEED"                                         = "%lu words per minute"; // %lu words per minute.
+"KARAOKE_OPTIONS"                                       = "Options";
+
+"KARAOKE_FINISED_BOOK_TITLE"                            = "Congratulations!";
+"KARAOKE_FINISED_BOOK_MESSAGE"                          = "You reached the end of this book.";
+
+// ********************************************************************************
+// Karaoke Options Menu (epubKaraokeSettingsViewController)
+// ********************************************************************************
+
+"KARAOKE_OPTIONS_MENU_HEADER"                           = "Karaoke options";
+"KARAOKE_OPTIONS_MENU_WORDS_PER_LINE"                   = "Words per line: %lu"; // %lu = words per line.
+"KARAOKE_OPTIONS_MENU_LARGE_TEXT"                       = "Large text";
+"KARAOKE_OPTIONS_MENU_SENTENCE_PAUSE"                   = "Pause for sentences";
+"KARAOKE_OPTIONS_MENU_LONG_WORD_PAUSE"                  = "Pause for long words";
+"KARAOKE_OPTIONS_MENU_COLOURIZE_FIRST_LETTER"           = "Colorize first letter";
+
+// ********************************************************************************
+// Now Reading Today Widget
+// ********************************************************************************
+
+"NOW_READING_WIDGET_LAST_READ"                          = "Last read %@"; // %@ = Date last read.
+"NOW_READING_WIDGET_NO_RECENTLY_OPENED"                 = "No recently opened books";
+
+// ********************************************************************************
+// Marvin Backup And Restore Screens
+// ********************************************************************************
+
+"MARVIN_BACKUP_CONFIRM"                                 = "Your backup will be saved in your documents directory and may take up to %@. Continue?"; // %@ = backup size.
+
+"MARVIN_BACKUP_NO_SPACE"                                = "You don’t have enough free space to create a backup. Marvin needs %@ and you have %@ free."; // %@ = backup size, %@ = free space.
+
+"MARVIN_BACKUP_ERROR"                                   = "Sorry, an error occurred while backing up Marvin (%lu)."; // %lu = error code.
+
+"MARVIN_BACKUP_DELETE"                                  = "Delete this backup?";
+
+"MARVIN_BACKUP_READY_MESSAGE"                           = "Your backup is ready. Send it to another app or keep it in your documents directory?";
+"MARVIN_BACKUP_READY_SEND_IT"                           = "Send it";
+"MARVIN_BACKUP_READY_KEEP_IT"                           = "Keep it (%@)"; // %@ = file size.
+
+"MARVIN_RESTORE_FILE_NOT_FOUND"                         = "Marvin is expecting a file called ‘marvin.m3backup’ in your documents directory. It doesn’t seem you have taken a backup yet.";
+
+"MARVIN_CLASSIC_RESTORE_HELP_SCREEN_TITLE"              = "Restoring from Marvin Classic";
+
+"MARVIN_BACKUP_RECIEVED_TITLE"                          = "Marvin backup";
+"MARVIN_BACKUP_RECIEVED_MESSAGE"                        = "A Marvin backup was saved in your documents directory (%@). Go to ‘Settings → General settings → Backup and restore’ to restore it."; // %@ = file size.
+"MARVIN_BACKUP_RECIEVED_DELETE_IT"                      = "Ignore and delete it";
+
+"MARVIN_CLASSIC_BACKUP_RECIEVED_TITLE"                  = "Marvin Classic backup";
+"MARVIN_CLASSIC_BACKUP_RECIEVED_MESSAGE"                = "A Marvin Classic backup was saved in your documents directory (%@). Go to ‘Settings → General settings → Backup and restore’ to restore it."; // %@ = file size.
+
+"MARVIN_RESTORE_SCREEN_TITLE"                           = "Restore backup";
+"MARVIN_RESTORE_SCREEN_MESSAGE"                         = "Please read all prompts carefully. This is a destructive operation.\n\nAll your data, including books and annotations, will be REPLACED by this backup. Your settings will not be changed.\n\nThis operation cannot be undone.\n\nWhen the backup file is processed you will be asked to quit and restart Marvin to complete the restore.\n\nAfter a restore, your backup file will not be automatically deleted (just in case). When you make sure that the restore was successful, you should consider deleting it to save space.";
+"MARVIN_RESTORE_SCREEN_MESSAGE_CLASSIC"                 = "Please read all prompts carefully. This is a destructive operation.\n\nAll your data, including books and annotations, will be REPLACED by this backup.\n\nIMPORTANT NOTES: Because of differences between Marvin and Marvin Classic:\n • your book layouts will be reset to defaults,\n • book locations may change a bit,\n • global app settings will not be changed,\n • annotations, vocabulary, and highlights will be imported into your reading journal,\n • Deep View annotations and custom covers cannot be imported,\n • highlights will be restored as journal entries but not as actual highlights in your books (the new highlighting system is much more reliable but incompatible with Marvin Classic - sorry about this).\n\nThis operation cannot be undone.\n\nWhen the backup file is processed you will be asked to quit and restart Marvin to complete the restore.\n\nAfter a restore, your backup file will not be automatically deleted (just in case). When you make sure that the restore was successful, you should consider deleting it to save space.";
+"MARVIN_RESTORE_SCREEN_BUTTON"                          = "Restore this backup";
+"MARVIN_RESTORE_SCREEN_CONFIRM"                         = "Are you sure you want to replace all your data in Marvin with this backup?";
+"MARVIN_RESTORE_SCREEN_ALMOST_DONE"                     = "Your restore is almost complete. Quit Marvin and open again to complete.";
+"MARVIN_RESTORE_SCREEN_QUIT_AND_CONTINUE"               = "Quit and continue";
+"MARVIN_RESTORE_SCREEN_RESTORE_ERROR"                   = "Sorry, an error occurred while restoring your backup (%lu). Your backup is likely corrupted."; // %lu = error code.
+"MARVIN_RESTORE_SCREEN_MIGRATE_DB_ERROR"                = "Sorry, Marvin couldn’t convert the Classic database to the newer format (%lu). Make sure you took the backup using the latest version of Marvin Classic."; // %lu = error code.
