@@ -11,7 +11,7 @@ Important Notes
 
 * Please base ALL translations on the "en-us" version. Do NOT translate files that have already been translated (e.g. from "fr-fr" to "de-de"). Meaning *will* get lost doing that.
 
-* This localisation process covers every single possible message, screen and menu in Marvin. You should be deeply familiar with Marvin and its behaviour to understand each message and how it translates.
+* This localisation process covers every single possible message, screen, and menu in Marvin. You should be deeply familiar with Marvin and its behaviour to understand each message and how it translates.
 
 * If you want to change anything in an existing translation, do your best to discuss with the orignal translator.
 
@@ -21,7 +21,7 @@ Important Notes
 
 * If you find an error, please send a pull request or something similar.
 
-* If you any questions concerning the original English strings, get in touch. 
+* If you have any questions concerning the original English strings, get in touch. 
 
 * If you make "non-standard" stylistic choices when translating, please annotate them in commit messages.
 
